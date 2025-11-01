@@ -51,6 +51,21 @@ async function logos() {
   document
     .querySelector(".search")
     .insertAdjacentHTML("afterbegin", searchHTML);
+  /*options */
+  let optionsRes = await fetch("http://localhost:3000/options");
+  let optionsData = await optionsRes.json();
+
+  let optionsHTML = optionsData
+    .map((item) => {
+      return `
+         ${item.title}
+      `;
+    })
+    .join("");
+
+  document
+    .querySelector(".options")
+    .insertAdjacentHTML("afterbegin", optionsHTML);
   /*imdb pro */
   let proRes = await fetch("http://localhost:3000/proLogo");
   let proData = await proRes.json();
@@ -76,34 +91,40 @@ async function logos() {
     })
     .join("");
 
-  document.querySelector(".watchlist").insertAdjacentHTML("afterbegin", watchlistHTML);
-    /*signin */
-    let signInRes = await fetch("http://localhost:3000/signIn");
-    let signInData = await signInRes.json();
-  
-    let signInHTML = signInData
-      .map((item) => {
-        return `
+  document
+    .querySelector(".watchlist")
+    .insertAdjacentHTML("afterbegin", watchlistHTML);
+  /*signin */
+  let signInRes = await fetch("http://localhost:3000/signIn");
+  let signInData = await signInRes.json();
+
+  let signInHTML = signInData
+    .map((item) => {
+      return `
            ${item.title}
         `;
-      })
-      .join("");
-  
-    document.querySelector(".signIn").insertAdjacentHTML("afterbegin", signInHTML);
-        /*useApp */
-        let useAppRes = await fetch("http://localhost:3000/useApp");
-        let useAppData = await useAppRes.json();
-      
-        let useAppHTML = useAppData
-          .map((item) => {
-            return `
+    })
+    .join("");
+
+  document
+    .querySelector(".signIn")
+    .insertAdjacentHTML("afterbegin", signInHTML);
+  /*useApp */
+  let useAppRes = await fetch("http://localhost:3000/useApp");
+  let useAppData = await useAppRes.json();
+
+  let useAppHTML = useAppData
+    .map((item) => {
+      return `
                <a href = "${item.href}">${item.title}</a>
             `;
-          })
-          .join("");
-      
-        document.querySelector(".useApp").insertAdjacentHTML("afterbegin", useAppHTML);
-          /*lang */
+    })
+    .join("");
+
+  document
+    .querySelector(".useApp")
+    .insertAdjacentHTML("afterbegin", useAppHTML);
+  /*lang */
   let langRes = await fetch("http://localhost:3000/lang");
   let langData = await langRes.json();
 
