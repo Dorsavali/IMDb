@@ -5,10 +5,3 @@
 #app{
     width: 100%;
 }
-@font-face {
-    font-family: roboto;
-    src: url("../../public/fonts/Roboto-Regular.eot");
-    src: url("../../public/fonts/Roboto-Regular.ttf");
-    src: url("../../public/fonts/Roboto-Regular.woff");
-    src: url("../../public/fonts/Roboto-Regular.woff2");
-}

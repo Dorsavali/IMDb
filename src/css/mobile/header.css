@@ -1,41 +1,94 @@
-header{
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #121212;
+  height: 48px;
+  width: 100%;
+  .left {
+    height: 100%;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row-reverse nowrap;
     justify-content: center;
     align-items: center;
-    gap: 4px;
-    padding:4px 8px;
+    gap: 15px;
+    padding-left: 8px;
     box-sizing: border-box;
-    background-color: #121212;
-    .left{
-      display: flex;
-      flex-flow: row-reverse nowrap;
-      justify-content: center;
-      align-items: center;
-      .logo{
-        img{
-          width: 64px;
-          height: 32px;
-        }
-      }
-      .menuLogo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &.show-text{
-         color: rgb(255, 255, 255);
-         font-size: 0;
-        }
+
+    .logo {
+      margin-top: 5px;
+      margin-right: 60px;
+      img {
+        width: 64px;
+        height: 32px;
       }
     }
-    /*<div class="search">
-          <input type="search" name="search" id="search" placeholder="">
-          <img src="" alt="">
-        </div>*/
-        .search{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          
-        }
+    .menuLogo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &.show-text {
+        color: rgb(255, 255, 255);
+        font-size: 0;
+      }
+    }
+  }
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    &.show-input {
+      input {
+        display: none;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    .pro {
+      &.show-pro {
+        display: none;
+      }
+    }
+    .watchlist {
+      &.show-item {
+        display: none;
+      }
+    }
+    .signIn {
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.28px;
+      margin-right: 5px;
+    }
+    .useApp {
+      margin-left: 5px;
+      a {
+        background-color: rgb(245, 197, 24);
+        color: black;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 8px;
+        box-sizing: border-box;
+        text-decoration: none;
+        border-radius: 24px;
+      }
+    }
+    .lang{
+      &.show-lang{
+        display: none;
+      }
+    }
+  }
 }

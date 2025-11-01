@@ -2,7 +2,7 @@
   "logo": [
     {
       "id": 1,
-      "src": "https://8upload.com/image/6905dcab84ddd/imdbLogo.png",
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/imdbLogo.png",
       "alt": "imdbLogo",
       "title": ""
       
@@ -11,7 +11,7 @@
   "menuLogo":[
     {
       "id": 1,
-      "src": "https://8upload.com/image/69062072e8168/menu.png",
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/menu.svg",
       "alt": "menu",
       "title": "Menu"
       
@@ -20,9 +20,46 @@
   "searchLogo":[
     {
       "id": 1,
-      "src": "https://8upload.com/image/69062a7d7e549/search.png",
-      "alt": "menu"
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/search.svg",
+      "alt": "search"
       
+    }
+  ],
+  "proLogo":[
+    {
+      "id": 1,
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/imdbPro.svg",
+      "alt": "pro"
+      
+    }
+  ],
+  "watchlistLogo":[
+    {
+      "id": 1,
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlist.svg",
+      "alt": "pro",
+      "title": "watchlist"
+    }
+  ],
+  "signIn":[
+    {
+      "id": 1,
+      "title": "Sign in"
+    }
+  ],
+  "useApp":[
+    {
+      "id": 1,
+      "href": "#",
+      "title": "Use app"
+    }
+  ],
+  "lang":[
+    {
+      "id": 1,
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrow.svg",
+      "alt": "en",
+      "title": "EN"
     }
   ]
 }
