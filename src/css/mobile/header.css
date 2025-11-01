@@ -45,6 +45,12 @@ header {
         display: none;
       }
     }
+    .options{
+      display: none;
+    }
+    svg{
+      display: none;
+    }
   }
   .right {
     display: flex;
