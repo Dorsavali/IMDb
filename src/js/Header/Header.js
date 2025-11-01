@@ -66,6 +66,43 @@ async function logos() {
   document
     .querySelector(".options")
     .insertAdjacentHTML("afterbegin", optionsHTML);
+
+  /*options */
+  let submenuRes = await fetch("http://localhost:3000/submenu");
+  let submenuData = await submenuRes.json();
+
+  let submenuHTML = submenuData
+    .map((item) => {
+      return `
+        <li><a href="${item.href}">
+                  <img src="${item.src}" alt="${item.alt}">
+                  ${item.title}
+                </a></li>
+      `;
+    })
+    .join("");
+
+  document
+    .querySelector(".submenu")
+    .insertAdjacentHTML("afterbegin", submenuHTML);
+    const options = document.querySelector(".options");
+    const submenu = document.querySelector(".submenu");
+    
+    if (options && submenu) {
+      options.addEventListener("click", (e) => {
+        e.stopPropagation();
+        submenu.classList.toggle("show");
+        options.classList.toggle("open");
+      });
+    
+      document.addEventListener("click", (e) => {
+        if (!options.contains(e.target)) {
+          submenu.classList.remove("show");
+          options.classList.remove("open");
+        }
+      });
+    }
+    
   /*imdb pro */
   let proRes = await fetch("http://localhost:3000/proLogo");
   let proData = await proRes.json();

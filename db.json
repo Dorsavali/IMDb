@@ -68,5 +68,58 @@
       "alt": "en",
       "title": "EN"
     }
+  ],
+  "submenu":[
+
+      {
+        "id":1,
+        "title":"All",
+        "href":"#",
+        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/searchWhite.svg",
+        "alt":"submenu"
+      },
+      {
+        "id":2,
+        "title":"Titles",
+        "href":"#",
+        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/movie.svg",
+        "alt":"submenu"
+      },
+      {
+        "id":3,
+        "title":" TV episodes",
+        "href":"#",
+        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/tv.svg",
+        "alt":"submenu"
+      },
+      {
+        "id":4,
+        "title":"Celebs",
+        "href":"#",
+        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/group.svg",
+        "alt":"submenu"
+      },
+      {
+        "id":5,
+        "title":"Companies",
+        "href":"#",
+        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/domain.svg",
+        "alt":"submenu"
+      },
+      {
+        "id":6,
+        "title":"Keywords",
+        "href":"#",
+        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/label.svg",
+        "alt":"submenu"
+      },
+      {
+        "id":7,
+        "title":"Advance search",
+        "href":"#",
+        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prosearch.svg",
+        "alt":"submenu"
+      }
+    
   ]
 }
