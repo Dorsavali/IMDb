@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding:4px 8px;
+    box-sizing: border-box;
+    background-color: #121212;
+    .left{
+      display: flex;
+      flex-flow: row-reverse nowrap;
+      justify-content: center;
+      align-items: center;
+      .logo{
+        img{
+          width: 64px;
+          height: 32px;
+        }
+      }
+      .menuLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &.show-text{
+         color: rgb(255, 255, 255);
+         font-size: 0;
+        }
+      }
+    }
+    /*<div class="search">
+          <input type="search" name="search" id="search" placeholder="">
+          <img src="" alt="">
+        </div>*/
+        .search{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+        }
+}

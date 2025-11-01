@@ -1,0 +1,28 @@
+{
+  "logo": [
+    {
+      "id": 1,
+      "src": "https://8upload.com/image/6905dcab84ddd/imdbLogo.png",
+      "alt": "imdbLogo",
+      "title": ""
+      
+    }
+  ],
+  "menuLogo":[
+    {
+      "id": 1,
+      "src": "https://8upload.com/image/69062072e8168/menu.png",
+      "alt": "menu",
+      "title": "Menu"
+      
+    }
+  ],
+  "searchLogo":[
+    {
+      "id": 1,
+      "src": "https://8upload.com/image/69062a7d7e549/search.png",
+      "alt": "menu"
+      
+    }
+  ]
+}
