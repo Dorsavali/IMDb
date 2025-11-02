@@ -5,42 +5,37 @@
       "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/imdbLogo.png",
       "alt": "imdbLogo",
       "title": ""
-      
     }
   ],
-  "menuLogo":[
+  "menuLogo": [
     {
       "id": 1,
       "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/menu.svg",
       "alt": "menu",
       "title": "Menu"
-      
     }
   ],
-  "searchLogo":[
+  "searchLogo": [
     {
       "id": 1,
       "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/search.svg",
       "alt": "search"
-      
     }
   ],
-  "options":[
+  "options": [
     {
       "id": 1,
-      "title" : "All"
-      
+      "title": "All"
     }
   ],
-  "proLogo":[
+  "proLogo": [
     {
       "id": 1,
       "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/imdbPro.svg",
       "alt": "pro"
-      
     }
   ],
-  "watchlistLogo":[
+  "watchlistLogo": [
     {
       "id": 1,
       "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlist.svg",
@@ -48,20 +43,20 @@
       "title": "watchlist"
     }
   ],
-  "signIn":[
+  "signIn": [
     {
       "id": 1,
       "title": "Sign in"
     }
   ],
-  "useApp":[
+  "useApp": [
     {
       "id": 1,
       "href": "#",
       "title": "Use app"
     }
   ],
-  "lang":[
+  "lang": [
     {
       "id": 1,
       "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrow.svg",
@@ -69,57 +64,139 @@
       "title": "EN"
     }
   ],
-  "submenu":[
-
-      {
-        "id":1,
-        "title":"All",
-        "href":"#",
-        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/searchWhite.svg",
-        "alt":"submenu"
-      },
-      {
-        "id":2,
-        "title":"Titles",
-        "href":"#",
-        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/movie.svg",
-        "alt":"submenu"
-      },
-      {
-        "id":3,
-        "title":" TV episodes",
-        "href":"#",
-        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/tv.svg",
-        "alt":"submenu"
-      },
-      {
-        "id":4,
-        "title":"Celebs",
-        "href":"#",
-        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/group.svg",
-        "alt":"submenu"
-      },
-      {
-        "id":5,
-        "title":"Companies",
-        "href":"#",
-        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/domain.svg",
-        "alt":"submenu"
-      },
-      {
-        "id":6,
-        "title":"Keywords",
-        "href":"#",
-        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/label.svg",
-        "alt":"submenu"
-      },
-      {
-        "id":7,
-        "title":"Advance search",
-        "href":"#",
-        "src" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prosearch.svg",
-        "alt":"submenu"
-      }
-    
+  "submenu": [
+    {
+      "id": 1,
+      "title": "All",
+      "href": "#",
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/searchWhite.svg",
+      "alt": "submenu"
+    },
+    {
+      "id": 2,
+      "title": "Titles",
+      "href": "#",
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/movie.svg",
+      "alt": "submenu"
+    },
+    {
+      "id": 3,
+      "title": " TV episodes",
+      "href": "#",
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/tv.svg",
+      "alt": "submenu"
+    },
+    {
+      "id": 4,
+      "title": "Celebs",
+      "href": "#",
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/group.svg",
+      "alt": "submenu"
+    },
+    {
+      "id": 5,
+      "title": "Companies",
+      "href": "#",
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/domain.svg",
+      "alt": "submenu"
+    },
+    {
+      "id": 6,
+      "title": "Keywords",
+      "href": "#",
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/label.svg",
+      "alt": "submenu"
+    },
+    {
+      "id": 7,
+      "title": "Advance search",
+      "href": "#",
+      "src": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prosearch.svg",
+      "alt": "submenu"
+    }
+  ],
+  "sideMenu": [
+    {
+      "groupName": "Movies",
+      "groupIconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/movie.svg",
+      "groupLink": "#",
+      "hasSubmenu": true,
+      "submenuItems": [
+        { "title": "Release calendar", "href": "#" },
+        { "title": "Top 250 movies", "href": "#" },
+        { "title": "Most popular movies", "href": "#" },
+        { "title": "browse movies by genre", "href": "#" },
+        { "title": "Top box office", "href": "#" },
+        { "title": "Show times & tickets", "href": "#" },
+        { "title": "Movie news", "href": "#" },
+        { "title": "India movie spotlight", "href": "#" }
+      ]
+    },
+    {
+      "groupName": "Tv shows",
+      "groupIconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/tv.svg",
+      "groupLink": "#",
+      "hasSubmenu": true,
+      "submenuItems": [
+        { "title": "What's on TV & streaming", "href": "#" },
+        { "title": "Top 250 Tv shows", "href": "#" },
+        { "title": "Most popular tv shows", "href": "#" },
+        { "title": "browse tv shows by genre", "href": "#" },
+        { "title": "tv news", "href": "#" }
+      ]
+    },
+    {
+      "groupName": "Watch",
+      "groupIconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/image.svg",
+      "groupLink": "#",
+      "hasSubmenu": true,
+      "submenuItems": [
+        { "title": "What to watch", "href": "#" },
+        { "title": "Latest trailers", "href": "#" },
+        { "title": "IMDb orginals", "href": "#" },
+        { "title": "IMDb picks", "href": "#" },
+        { "title": "IMDb spotlight", "href": "#" },
+        { "title": "family entertainment guide", "href": "#" },
+        { "title": "IMDb podcasts", "href": "#" }
+      ]
+    },
+    {
+      "groupName": "Awards & events",
+      "groupIconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/stars.svg",
+      "groupLink": "#",
+      "hasSubmenu": true,
+      "submenuItems": [
+        { "title": "oscars", "href": "#" },
+        { "title": "scary good horror", "href": "#" },
+        { "title": "halloween family fun", "href": "#" },
+        { "title": "AFI film fest guide", "href": "#" },
+        { "title": "STARmeter awards", "href": "#" },
+        { "title": "awards centeral", "href": "#" },
+        { "title": "festival centeral", "href": "#" },
+        { "title": "all events", "href": "#" }
+      ]
+    },
+    {
+      "groupName": "Celebs",
+      "groupIconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/tv.svg",
+      "groupLink": "#",
+      "hasSubmenu": true,
+      "submenuItems": [
+        { "title": "born today", "href": "#" },
+        { "title": "most popular celebs", "href": "#" },
+        { "title": "celebrity news", "href": "#" }
+      ]
+    },
+    {
+      "groupName": "Comunity",
+      "groupIconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/globe.svg",
+      "groupLink": "#",
+      "hasSubmenu": true,
+      "submenuItems": [
+        { "title": "help center", "href": "#" },
+        { "title": "contributor zone", "href": "#" },
+        { "title": "polls", "href": "#" }
+      ]
+    }
   ]
 }
