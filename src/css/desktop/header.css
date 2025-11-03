@@ -17,7 +17,7 @@ header {
         margin-top: 4px;
         font-size: 14px;
         font-weight: 700;
-        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-family: roboto;
       }
     }
   }
@@ -41,7 +41,7 @@ header {
       display: none;
     }
     .options {
-      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-family: roboto;
       color: rgb(0, 0, 0);
       font-size: 14px;
       font-weight: 600;
@@ -99,7 +99,7 @@ header {
             align-items: center;
             gap: 15px;
             text-decoration: none;
-            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-family: roboto;
             color: white;
             font-size: 16px;
             font-weight: 400;
@@ -154,7 +154,7 @@ header {
       border-right: 0.5px solid rgba(228, 228, 228, 0.574);
       &.show-pro {
         display: block;
-        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-family: roboto;
         color: white;
         font-size: 14px;
         font-weight: 700;
@@ -165,7 +165,7 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-family: roboto;
       color: white;
       font-size: 14px;
       font-weight: 700;
@@ -176,7 +176,7 @@ header {
       }
     }
     .signIn {
-      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-family: roboto;
       color: white;
       font-size: 14px;
       font-weight: 700;
@@ -191,7 +191,7 @@ header {
       flex-flow: row-reverse nowrap;
       justify-content: center;
       align-items: center;
-      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-family: roboto;
       color: white;
       font-size: 14px;
       font-weight: 700;

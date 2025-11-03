@@ -70,7 +70,7 @@ header {
       }
     }
     .signIn {
-      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-family: roboto;
       color: white;
       font-size: 14px;
       font-weight: 700;
@@ -82,7 +82,7 @@ header {
       a {
         background-color: rgb(245, 197, 24);
         color: black;
-        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-family: roboto;
         font-size: 14px;
         font-weight: 700;
         padding: 8px;
