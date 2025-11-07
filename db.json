@@ -201,7 +201,6 @@
   ],
   "imdbHero": [
     {
-      
       "id": "1",
       "VidSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/strangerVid.jpg",
       "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/strangerPoster.jpg",
@@ -210,7 +209,7 @@
       "imgPlaySrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
       "imgPlayHover": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg",
       "duration": "2:44",
-      "title": "Stranger Things Returns November 26",
+      "title": "Stranger Things Returns",
       "description": "Watch the Season 5 Trailer",
       "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
       "imgLikeAlt": "like",
@@ -218,7 +217,7 @@
       "heartSpan": "❤️",
       "heartNum": "413"
     },
-    { 
+    {
       "id": "2",
       "VidSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/screamVid.jpg",
       "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/screamPoster1.jpg",
@@ -235,7 +234,7 @@
       "heartSpan": "❤️",
       "heartNum": "244"
     },
-    { 
+    {
       "id": "3",
       "VidSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arianaVid.jpg",
       "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arianaPoster.jpg",
@@ -244,13 +243,73 @@
       "imgPlaySrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
       "imgPlayHover": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg",
       "duration": "2:24",
-      "title": "'Scream 7'",
-      "description": "Watch the Trailer",
+      "title": "Ariana Grande Through the Years",
+      "description": "See the 'Wicked' Star's On-Screen Highlights",
       "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
       "imgLikeAlt": "like",
       "likeNum": "445",
       "heartSpan": "❤️",
       "heartNum": "244"
+    }
+  ],
+  "titleDiv": [
+    {
+      "titleDiv": "Up next"
+    }
+  ],
+  "imdbHeroDesktop": [
+    {
+      "id": 1,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/fredyPoster.jpg",
+      "imgMovieAlt": "moviePoster",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSlider.svg",
+      "imgPlaySrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "imgPlayHover": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg",
+      "duration": "2:30",
+      "title": "'Five Nights at Freddy's 2'",
+      "description": "Watch the New Trailer",
+      "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
+      "imgLikeAlt": "like",
+      "likeNum": "320",
+      "heartSpan": "❤️",
+      "heartNum": "212"
+    },
+    {
+      "id": 1,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/wickedPoster.jpg",
+      "imgMovieAlt": "moviePoster",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSlider.svg",
+      "imgPlaySrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "imgPlayHover": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg",
+      "duration": "3:10",
+      "title": "Will There Be a 'Wicked 3'?",
+      "description": "Watch the Video",
+      "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
+      "imgLikeAlt": "like",
+      "likeNum": "110",
+      "heartSpan": "❤️",
+      "heartNum": "741"
+    },
+    {
+      "id": 1,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/jacksonPoster.jpg",
+      "imgMovieAlt": "moviePoster",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSlider.svg",
+      "imgPlaySrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "imgPlayHover": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg",
+      "duration": "5:44",
+      "title": "Jaafar Jackson Is 'Michael'",
+      "description": "Watch the Trailer",
+      "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
+      "imgLikeAlt": "like",
+      "likeNum": "523",
+      "heartSpan": "❤️",
+      "heartNum": "153"
+    }
+  ],
+  "trailers": [
+    {
+      "trailers": "Browse trailers >"
     }
   ]
 }

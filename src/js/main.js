@@ -14,6 +14,7 @@ async function slider() {
   var swiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
+    loop: true,
     autoplay: {
       delay: 25000,
       disableOnInteraction: false,
@@ -32,10 +33,8 @@ async function slider() {
         navigation: false,
       },
       768: {
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
+        pagination: false,
+
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
