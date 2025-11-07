@@ -12,9 +12,7 @@ async function imdbHero() {
                 <div class="cover">
                   <div class="left">
                     <img src="${item.imgMovieSrc}" alt="${item.imgMovieAlt}">
-                    <img src="${
-                      item.imgWatchlist
-                    }" alt="wathclist" class="watchlist">
+                    <img src="${item.imgWatchlist}" alt="wathclist" class="watchlist">
                   </div>
                   <div class="right">
                     <div class="videoPlay">
@@ -44,20 +42,21 @@ async function imdbHero() {
     .querySelector(".imdbHeroSwiper .swiper-wrapper")
     .insertAdjacentHTML("afterbegin", imdbHeroHTML);
 
-  document.querySelectorAll('.swiper-slide').forEach(slide => {
-    const playImg = slide.querySelector('.videoPlay img');
-    const originalSrc = playImg.src;
-    const hoverSrc = "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg";
+  document.querySelectorAll(".swiper-slide").forEach((slide) => {
+    const playImg = slide.querySelector(".videoPlay img");
+    const originalSrc =
+      "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg";
+    const hoverSrc =
+      "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg";
 
-
-    slide.addEventListener('mouseenter', () => {
-      playImg.src = hoverSrc;
+    slide.addEventListener("mouseenter", () => {
+      playImg.src === hoverSrc;
     });
-    slide.addEventListener('mouseleave', () => {
-      playImg.src = originalSrc;
+    slide.addEventListener("mouseleave", () => {
+      playImg.src === originalSrc;
     });
-    slide.addEventListener('click', () => {
-      playImg.src = (playImg.src === originalSrc) ? hoverSrc : originalSrc;
+    slide.addEventListener("click", () => {
+      playImg.src === (playImg.src === originalSrc) ? hoverSrc : originalSrc;
     });
   });
   let titleDivRes = await fetch("http://localhost:3000/titleDiv");
@@ -74,34 +73,31 @@ async function imdbHero() {
   document
     .querySelector(".titleDiv")
     .insertAdjacentHTML("afterbegin", titleDivHTML);
-    let trailersRes = await fetch("http://localhost:3000/trailers");
-    let trailersData = await trailersRes.json();
-  
-    let trailersHTML = trailersData
-      .map((item) => {
-        return `
+  let trailersRes = await fetch("http://localhost:3000/trailers");
+  let trailersData = await trailersRes.json();
+
+  let trailersHTML = trailersData
+    .map((item) => {
+      return `
        ${item.trailers}
         `;
-      })
-      .join("");
-  
-    document
-      .querySelector(".trailers")
-      .insertAdjacentHTML("afterbegin", trailersHTML);
+    })
+    .join("");
+
+  document
+    .querySelector(".trailers")
+    .insertAdjacentHTML("afterbegin", trailersHTML);
 
   let ImdbHeroDesktopRes = await fetch("http://localhost:3000/imdbHeroDesktop");
   let ImdbHeroDesktopData = await ImdbHeroDesktopRes.json();
 
-  let ImdbHeroDesktopHTML = ImdbHeroDesktopData
-    .map((item) => {
-      return `
+  let ImdbHeroDesktopHTML = ImdbHeroDesktopData.map((item) => {
+    return `
       
         <div class="coverDesktop">
               <div class="left">
                 <img src="${item.imgMovieSrc}" alt="${item.imgMovieAlt}">
-                <img src="${
-                  item.imgWatchlist
-                }" alt="wathclist" class="watchlist">
+                <img src="${item.imgWatchlist}" alt="wathclist" class="watchlist">
               </div>
               <div class="right">
                 <div class="videoPlay">
@@ -123,29 +119,28 @@ async function imdbHero() {
               </div>
             </div>
       `;
-    })
-    .join("");
+  }).join("");
 
   document
     .querySelector(".items")
     .insertAdjacentHTML("afterbegin", ImdbHeroDesktopHTML);
 
-    document.querySelectorAll('.coverDesktop').forEach(slide => {
-      const playImg = slide.querySelector('.videoPlay img');
-      const originalSrc = playImg.src;
-      const hoverSrc = "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg";
-  
-  
-      slide.addEventListener('mouseenter', () => {
-        playImg.src = hoverSrc;
-      });
-      slide.addEventListener('mouseleave', () => {
-        playImg.src = originalSrc;
-      });
-      slide.addEventListener('click', () => {
-        playImg.src = (playImg.src === originalSrc) ? hoverSrc : originalSrc;
-      });
+  document.querySelectorAll(".coverDesktop").forEach((slide) => {
+    const playImg = slide.querySelector(".videoPlay img");
+    const originalSrc = playImg.src;
+    const hoverSrc =
+      "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg";
+
+    slide.addEventListener("mouseenter", () => {
+      playImg.src === hoverSrc;
     });
+    slide.addEventListener("mouseleave", () => {
+      playImg.src === originalSrc;
+    });
+    slide.addEventListener("click", () => {
+      playImg.src === (playImg.src === originalSrc) ? hoverSrc : originalSrc;
+    });
+  });
 }
 
 export default imdbHero;

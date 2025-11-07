@@ -1,0 +1,107 @@
+.featured {
+  width: 100%;
+  padding: 20px 115px;
+  box-sizing: border-box;
+  background-color: rgb(18, 18, 18);
+  .titleFeatured {
+    margin: 24px 0px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    font-family: roboto;
+    font-weight: 800;
+    font-size: 28px;
+    color: rgb(245, 197, 24);
+    letter-spacing: 0.7px;
+  }
+  .swiper {
+    width: 65%;
+    height: 100%;
+    align-self: flex-start;
+    margin: unset;
+  }
+
+  .swiper-slide {
+    width: 420px !important;
+    height: 325px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-flow: column nowrap;
+    gap: 0px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    .poster {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      position: relative;
+      border-radius: 12px;
+      box-sizing: border-box;
+      width: 402px;
+      height: 226px;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.915));
+        pointer-events: none;
+        border-radius: 12px;
+      }
+      .list {
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: roboto;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.7;
+        position: absolute;
+        bottom: 2%;
+        left: 4%;
+        
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+    .title {
+      font-family: roboto;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.7px;
+      color: white;
+      width: 80%;
+      line-height: 24px;
+    }
+    .description {
+      font-family: roboto;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.7px;
+      color: rgb(87, 153, 239);
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -311,5 +311,76 @@
     {
       "trailers": "Browse trailers >"
     }
+  ],
+  "titleFeatured": [
+    {
+      "titleFeatured": "Featured today"
+    }
+  ],
+  "featured": [
+    {
+      "id": 1,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/featured1.jpg",
+      "imgList": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/list.svg",
+      "text": "List",
+      "title": "Staff Picks: What to Watch in November",
+      "description": "See our picks"
+    },
+    {
+      "id": 2,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/featured2.jpg",
+      "imgList": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/list.svg",
+      "text": "List",
+      "title": "5 Things to Watch This Week",
+      "description": "See the list"
+    },
+    {
+      "id": 3,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/featured3.jpg",
+      "imgList": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/list.svg",
+      "text": "List",
+      "title": "Theatrical Releases You Can Stream or Rent",
+      "description": "See the list"
+    },
+    {
+      "id": 4,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/featured4.jpg",
+      "imgList": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/list.svg",
+      "text": "List",
+      "title": "In Memoriam: Stars We Lost in 2025",
+      "description": "See the gallery"
+    },
+    {
+      "id": 5,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/featured5.jpg",
+      "imgList": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/list.svg",
+      "text": "List",
+      "title": "TV Tracker: Renewed and Canceled Shows",
+      "description": "Check the status"
+    },
+    {
+      "id": 6,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/featured6.jpg",
+      "imgList": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/list.svg",
+      "text": "List",
+      "title": "Fantastical Physical Transformations",
+      "description": "See the full gallery"
+    },
+    {
+      "id": 7,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/featured7.jpg",
+      "imgList": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/list.svg",
+      "text": "List",
+      "title": "'Frankenstein' Stars + More Photos We Love",
+      "description": "See the gallery"
+    },
+    {
+      "id": 8,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/featured8.jpg",
+      "imgList": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/list.svg",
+      "text": "List",
+      "title": "Ryan Murphy Series, Ranked",
+      "description": "See the rankings"
+    }
   ]
 }
