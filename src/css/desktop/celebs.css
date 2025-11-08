@@ -1,0 +1,117 @@
+.celebrities {
+  width: 100%;
+  padding: 20px 124px;
+  box-sizing: border-box;
+  background-color: rgb(18, 18, 18);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 20px;
+  .titleCelebs {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: roboto;
+    letter-spacing: 0.8px;
+    color: white;
+    gap: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    .lineSvg {
+      margin-bottom: unset;
+      box-sizing: border-box;
+      font-size: 30px;
+      color: rgb(245, 197, 24);
+      border-radius: 4px;
+    }
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    padding-left: 15px;
+    box-sizing: border-box;
+    .celebs {
+      width: 170px;
+      padding: 20px 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: contain;
+      }
+      .ratings {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        .number {
+          font-family: roboto;
+          color: white;
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 0.7px;
+        }
+        .text {
+          color: rgba(255, 255, 255, 0.7);
+          font-family: roboto;
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 0.7px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+          span {
+            color: rgba(255, 255, 255, 0.7);
+            font-family: roboto;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 0.7px;
+          }
+        }
+      }
+      .name {
+        color: rgba(255, 255, 255);
+        font-family: roboto;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+      }
+    }
+  }
+  .swiper-button-next ,.swiper-button-prev{
+    background-color: rgba(0, 0, 0, 0.405);
+    padding: 8px 12px;
+    border: 0.7px solid white;
+    width: 16px;
+    color: white;
+    border-radius: 4px;
+    
+    &:hover{
+      color: rgb(245, 197, 24);
+    }
+  }
+  .swiper-button-next{
+    right: 0;
+    top: 40%;
+  }
+  .swiper-button-prev{
+    left: 0;
+    top: 40%;
+  }
+}

@@ -43,23 +43,19 @@ async function slider() {
     },
   });
 
-
   var featuredswiper = new Swiper(".featuredswiper", {
     slidesPerView: 1,
     spaceBetween: 0,
-    loop : true ,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },navigation: {
+    loop: true,
+    navigation: {
       nextEl: ".featured .swiper-button-next",
       prevEl: ".featured .swiper-button-prev",
     },
     breakpoints: {
-      0: { pagination: false, navigation: false },
+      0: { navigation: false ,   loop: true},
       768: {
-        pagination: false,
         navigation: {
+          loop: true,
           nextEl: ".featured .swiper-button-next",
           prevEl: ".featured .swiper-button-prev",
         },
@@ -70,17 +66,15 @@ async function slider() {
   var celebsswiper = new Swiper(".celebsswiper", {
     slidesPerView: 3,
     spaceBetween: 70,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },navigation: {
+    navigation: {
       nextEl: ".celebs .swiper-button-next",
       prevEl: ".celebs .swiper-button-prev",
     },
     breakpoints: {
-      0: { pagination: false, navigation: false },
+      0: { navigation: false,spaceBetween: 70  ,   slidesPerView: 3},
       768: {
-        pagination: false,
+        slidesPerView: 6,
+        spaceBetween: 0,
         navigation: {
           nextEl: ".celebs .swiper-button-next",
           prevEl: ".celebs .swiper-button-prev",
