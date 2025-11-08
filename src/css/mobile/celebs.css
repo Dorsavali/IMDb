@@ -1,0 +1,95 @@
+.celebrities {
+  width: 100%;
+  padding: 24px 0px;
+  box-sizing: border-box;
+  background-color: rgb(18, 18, 18);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 20px;
+  .titleCelebs {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: roboto;
+    letter-spacing: 0.8px;
+    color: white;
+    gap: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    .lineSvg {
+      margin-bottom: 4px;
+      box-sizing: border-box;
+      width: 6px;
+      height: 21px;
+      color: rgb(245, 197, 24);
+      border-radius: 4px;
+    }
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+  .celebs{
+    width: 170px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: contain;
+    }
+    .ratings {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      .number {
+        font-family: roboto;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+      }
+      .text {
+        color: rgba(255, 255, 255, 0.7);
+        font-family: roboto;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 24px;
+          height: 24px;
+        }
+        span {
+          color: rgba(255, 255, 255, 0.7);
+          font-family: roboto;
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 0.7px;
+        }
+      }
+    }
+    .name {
+      color: rgba(255, 255, 255);
+      font-family: roboto;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.7px;
+    }
+  }
+  }
+}

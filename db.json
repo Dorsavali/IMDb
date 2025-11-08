@@ -382,5 +382,76 @@
       "title": "Ryan Murphy Series, Ranked",
       "description": "See the rankings"
     }
+  ],
+  "titleCelebs": [
+    {
+      "titleCelebs": "Most popular celebrities >"
+    }
+  ],
+  "celebs": [
+    {
+      "id": 1,
+      "celebSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/celeb1.jpg",
+      "number": 49,
+      "text":"5,207",
+      "arrowSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrowDownG.svg",
+      "name":"Clara Dessau"
+    },
+    {
+      "id": 2,
+      "celebSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/celeb2.jpg",
+      "number": 49,
+      "text":"998",
+      "arrowSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrowDown.svg",
+      "name":"Miles Ekhardt"
+    },
+    {
+      "id": 3,
+     "celebSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/celeb3.jpg",
+      "number": 49,
+      "text":"456",
+      "arrowSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrowDownG.svg",
+      "name":"Rebecca Ferguson"
+    },
+    {
+      "id": 4,
+      "celebSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/celeb4.jpg",
+      "number": 49,
+      "text":"1,425",
+      "arrowSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrowDownG.svg",
+      "name":"Amy Madigan"
+    },
+    {
+      "id": 5,
+      "celebSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/celeb5.jpg",
+      "number": 49,
+      "text":"993",
+      "arrowSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrowDownG.svg",
+      "name":"Clara Stack"
+    },
+    {
+      "id": 6,
+      "celebSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/celeb6.jpg",
+      "number": 49,
+      "text":"46",
+      "arrowSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrowDownG.svg",
+      "name":"Sydney Sweeney"
+    },
+    {
+      "id": 7,
+      "celebSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/celeb7.jpg",
+      "number": 49,
+      "text":"7,410",
+      "arrowSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrowDown.svg",
+      "name":"Mckenna Grace"
+    },
+    {
+      "id": 8,
+      "celebSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/celeb8.jpg",
+      "number": 49,
+      "text":"415",
+      "arrowSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/arrowDown.svg",
+      "name":"Charlie Hunnam"
+    }
   ]
 }

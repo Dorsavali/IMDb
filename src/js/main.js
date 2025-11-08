@@ -2,6 +2,7 @@ import logos from "./Header/Header";
 import menu from "./Menu/Menu";
 import imdbHero from "./ImdbHero/ImdbHero";
 import featured from "./featured/featured";
+import celebs from "./celebs/celebs";
 
 async function allData() {
   await slider();
@@ -13,7 +14,7 @@ async function slider() {
   await menu();
   await imdbHero();
   await featured();
-
+  await celebs();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -42,28 +43,47 @@ async function slider() {
     },
   });
 
-  const featuredSwiper = new Swiper(".featuredswiper", {
-    spaceBetween: 1,
-    centeredSlides: false,
-    autoplay: {
-      delay: 250000,
-      disableOnInteraction: false,
-    },
+
+  var featuredswiper = new Swiper(".featuredswiper", {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop : true ,
     pagination: {
-      el: ".featured .swiper-pagination",
+      el: ".swiper-pagination",
       clickable: true,
-    },
-    navigation: {
+    },navigation: {
       nextEl: ".featured .swiper-button-next",
       prevEl: ".featured .swiper-button-prev",
     },
     breakpoints: {
-      0: { pagination: false, navigation: false , slidePerView : 1.1},
+      0: { pagination: false, navigation: false },
       768: {
         pagination: false,
         navigation: {
           nextEl: ".featured .swiper-button-next",
           prevEl: ".featured .swiper-button-prev",
+        },
+      },
+    },
+  });
+
+  var celebsswiper = new Swiper(".celebsswiper", {
+    slidesPerView: 3,
+    spaceBetween: 70,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },navigation: {
+      nextEl: ".celebs .swiper-button-next",
+      prevEl: ".celebs .swiper-button-prev",
+    },
+    breakpoints: {
+      0: { pagination: false, navigation: false },
+      768: {
+        pagination: false,
+        navigation: {
+          nextEl: ".celebs .swiper-button-next",
+          prevEl: ".celebs .swiper-button-prev",
         },
       },
     },
