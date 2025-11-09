@@ -1,0 +1,123 @@
+.signin {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  box-sizing: border-box;
+background-color: black;
+  .watch-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      color: #ffd400;
+      font-size: 22px;
+      font-family: roboto;
+      font-weight: 600;
+      letter-spacing: 0.7px;
+    }
+
+    .more-link {
+      color: #1e90ff;
+      text-decoration: none;
+      font-size: 14px;
+      font-family: roboto;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .watch-main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    margin-top: 32px;
+    background-color: rgb(18, 18, 18);
+    .left-nav {
+      width: 260px;
+      display: flex;
+
+      .watchlist-link {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+
+        .bar {
+          width: 6px;
+          height: 32px;
+          background: #ffd400;
+          border-radius: 2px;
+          display: inline-block;
+        }
+
+        .text {
+          color: #fff;
+          font-weight: 600;
+          font-size: 18px;
+          font-family: roboto;
+          letter-spacing: 0.7px;
+        }
+
+        .chev {
+          color: #fff;
+          opacity: 0.7;
+          margin-left: auto;
+          transform: translateX(6px);
+          font-weight: 700;
+        }
+      }
+    }
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding-top: 50px;
+      gap: 5px;
+      img{
+        width: 50px;
+      }
+
+      .center-heading {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: roboto;
+        padding-top: 20px;
+      }
+
+      .center-sub {
+        color: #cfcfcf;
+        line-height: 1.5;
+        font-family: roboto;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 24px;
+      }
+
+      .signin-btn {
+        background: #1F1F1F;
+        border: none;
+        padding: 12px 22px;
+        border-radius: 999px;
+        color: #1e90ff;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.02) inset;
+        transition: transform 0.12s ease, box-shadow 0.12s ease;
+
+        &:hover {
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+}

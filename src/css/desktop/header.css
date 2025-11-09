@@ -66,6 +66,7 @@ header {
       .submenu {
         width: 235px;
         height: auto;
+        z-index: 99999;
         background-color: #1f1f1f;
         position: absolute;
         top: 100%;

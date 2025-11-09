@@ -50,13 +50,13 @@ async function imdbHero() {
       "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg";
 
     slide.addEventListener("mouseenter", () => {
-      playImg.src === hoverSrc;
+      playImg.src = hoverSrc;
     });
     slide.addEventListener("mouseleave", () => {
-      playImg.src === originalSrc;
+      playImg.src = originalSrc;
     });
     slide.addEventListener("click", () => {
-      playImg.src === (playImg.src === originalSrc) ? hoverSrc : originalSrc;
+      playImg.src = (playImg.src === originalSrc) ? hoverSrc : originalSrc;
     });
   });
   let titleDivRes = await fetch("http://localhost:3000/titleDiv");
@@ -132,13 +132,13 @@ async function imdbHero() {
       "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playYellow.svg";
 
     slide.addEventListener("mouseenter", () => {
-      playImg.src === hoverSrc;
+      playImg.src = hoverSrc;
     });
     slide.addEventListener("mouseleave", () => {
-      playImg.src === originalSrc;
+      playImg.src = originalSrc;
     });
     slide.addEventListener("click", () => {
-      playImg.src === (playImg.src === originalSrc) ? hoverSrc : originalSrc;
+      playImg.src = (playImg.src === originalSrc) ? hoverSrc : originalSrc;
     });
   });
 }

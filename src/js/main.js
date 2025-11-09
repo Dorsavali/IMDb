@@ -3,6 +3,7 @@ import menu from "./Menu/Menu";
 import imdbHero from "./ImdbHero/ImdbHero";
 import featured from "./featured/featured";
 import celebs from "./celebs/celebs";
+import signin from "./signin/signin";
 
 async function allData() {
   await slider();
@@ -15,6 +16,7 @@ async function slider() {
   await imdbHero();
   await featured();
   await celebs();
+  await signin();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -52,7 +54,7 @@ async function slider() {
       prevEl: ".featured .swiper-button-prev",
     },
     breakpoints: {
-      0: { navigation: false ,   loop: true},
+      0: { navigation: false, loop: true },
       768: {
         navigation: {
           loop: true,
@@ -71,7 +73,7 @@ async function slider() {
       prevEl: ".celebs .swiper-button-prev",
     },
     breakpoints: {
-      0: { navigation: false,spaceBetween: 70  ,   slidesPerView: 3},
+      0: { navigation: false, spaceBetween: 70, slidesPerView: 3 },
       768: {
         slidesPerView: 6,
         spaceBetween: 0,
