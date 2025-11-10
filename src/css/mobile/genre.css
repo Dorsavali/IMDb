@@ -1,4 +1,4 @@
-.favorites {
+.genre {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -7,7 +7,7 @@
   box-sizing: border-box;
   gap: 30px;
   user-select: none;
-  .titlefavorites {
+  .titlegenre {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -47,15 +47,6 @@
         }
       }
     }
-    .descirption {
-      color: #fff;
-      font-weight: 400;
-      font-size: 14px;
-      font-family: roboto;
-      letter-spacing: 0.7px;
-      opacity: 0.7;
-
-    }
   }
   .swiper {
     width: 100%;
@@ -70,8 +61,8 @@
     .cover {
       background: #111;
       color: #fff;
-      width: 150px;
-      height: 405px;
+      width: 220px;
+      height: 162px;
       border-radius: 10px;
       overflow: hidden;
       font-family: roboto;
@@ -81,7 +72,6 @@
       justify-content: space-between;
       gap: 10px;
       padding-bottom: 10px;
-
       .img {
         position: relative;
 
@@ -91,45 +81,17 @@
 
           &:nth-child(2) {
             position: absolute;
-            top: 0;
+            bottom: 2%;
             left: 8px;
             width: 40px;
-            height: 70px;
+            height: 32px;
+            border-radius: 100%;
           }
         }
         &:hover{
           opacity: 0.8;
         }
       }
-
-      .ratings {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 4px 8px;
-        font-size: 0.9rem;
-
-        .stars {
-          display: flex;
-          align-items: center;
-          gap: 4px;
-          font-family: roboto;
-          font-size: 16px;
-          font-weight: 400;
-          letter-spacing: 0.5;
-          opacity: 0.7;
-          img {
-            width: 30px;
-            height: 30px;
-          }
-        }
-
-        .star img {
-          width: 30px;
-          height: 30px;
-        }
-      }
-
       .title {
         padding: 0 8px;
         font-family: roboto;
@@ -138,43 +100,8 @@
         color: white;
         letter-spacing: 0.5px;
         line-height: 20px;
-      }
-
-      .buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        padding: 0 8px;
-
-        button {
-          background: #111111;
-          color: #fff;
-          border: none;
-          border-radius: 16px;
-          padding: 6px 10px;
-          font-family: roboto;
-          font-size: 14px;
-          cursor: pointer;
-          transition: background 0.3s ease;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 5px;
-          &.watch {
-            color: rgb(87, 153, 239);
-          }
-          img {
-            width: 14px;
-            height: 14px;
-            vertical-align: middle;
-          }
-          &:first-child {
-            background: #1a1a1a;
-            font-weight: 600;
-          }
-          &:hover {
-            background-color: #3d3d3d;
-          }
+        &:hover{
+          text-decoration: underline;
         }
       }
     }

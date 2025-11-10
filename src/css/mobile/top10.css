@@ -50,6 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     .cover {
         background: #111;
         color: #fff;
@@ -79,6 +80,9 @@
               width: 40px;
               height: 70px;
             }
+          }
+          &:hover{
+            opacity: 0.8;
           }
         }
       

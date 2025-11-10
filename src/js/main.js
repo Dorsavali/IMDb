@@ -6,7 +6,7 @@ import celebs from "./celebs/celebs";
 import signin from "./signin/signin";
 import top10 from "./top10/top10";
 import favorites from "./favorites/favorites";
-
+import genre from "./genre/genre";
 
 async function allData() {
   await slider();
@@ -22,6 +22,7 @@ async function slider() {
   await signin();
   await top10();
   await favorites();
+  await genre();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -113,6 +114,21 @@ async function slider() {
         navigation: {
           nextEl: ".favorites .swiper-button-next",
           prevEl: ".favorites .swiper-button-prev",
+        },
+      },
+    },
+  });
+  var genreswiper = new Swiper(".genreswiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    breakpoints: {
+      0: { navigation: false, spaceBetween: 2, slidesPerView: 1.4 },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".genre .swiper-button-next",
+          prevEl: ".genre .swiper-button-prev",
         },
       },
     },

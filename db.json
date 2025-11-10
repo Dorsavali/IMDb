@@ -664,5 +664,62 @@
       "title": "Ballad of a Small Player",
       "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
     }
+  ],
+  "titlegenre": [
+    {
+      "title": "Popular interests",
+      "chev": "›"
+    }
+  ],
+  "genre": [
+    {
+      "id": 1,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/genre1.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "title": "Drama"
+    },
+    {
+      "id": 2,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/genre2.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "title": "Horror"
+    },
+    {
+      "id": 3,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/genre3.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "title": "Thriller"
+    },
+    {
+      "id": 4,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/genre4.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "title": "Comedy"
+    },
+    {
+      "id": 5,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/genre5.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "title": "Action"
+    },
+
+    {
+      "id": 6,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/genre6.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "title": "Hindi"
+    },
+    {
+      "id": 7,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/genre7.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "title": "Romance"
+    },
+    {
+      "id": 8,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/genre8.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "title": "Anime"
+    }
   ]
 }

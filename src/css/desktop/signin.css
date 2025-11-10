@@ -2,6 +2,7 @@
   height: 450px;
   padding: 20px 115px;
   .watch-header {
+    padding: unset;
     .title {
       font-size: 28px;
     }
@@ -13,9 +14,11 @@
   .watch-main {
     align-items: center;
     background-color: rgb(0, 0, 0);
+    height: unset;
     .left-nav {
       align-self: flex-start;
       .watchlist-link {
+        padding: unset;
         .bar {
         }
         .text {

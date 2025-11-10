@@ -2,13 +2,15 @@
   height: 500px;
   display: flex;
   flex-direction: column;
-  padding: 24px 16px;
+  padding: 24px 0px;
   box-sizing: border-box;
 background-color: black;
   .watch-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 16px;
+    box-sizing: border-box;
     .title {
       color: #ffd400;
       font-size: 22px;
@@ -36,7 +38,9 @@ background-color: black;
     justify-content: center;
     align-items: start;
     margin-top: 32px;
+    padding: unset;
     background-color: rgb(18, 18, 18);
+    height: 500px;
     .left-nav {
       width: 260px;
       display: flex;
@@ -46,7 +50,8 @@ background-color: black;
         align-items: center;
         gap: 12px;
         cursor: pointer;
-
+        padding: 0px 16px;
+        box-sizing: border-box;
         .bar {
           width: 6px;
           height: 32px;
