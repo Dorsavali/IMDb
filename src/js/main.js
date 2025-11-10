@@ -5,6 +5,8 @@ import featured from "./featured/featured";
 import celebs from "./celebs/celebs";
 import signin from "./signin/signin";
 import top10 from "./top10/top10";
+import favorites from "./favorites/favorites";
+
 
 async function allData() {
   await slider();
@@ -19,6 +21,7 @@ async function slider() {
   await celebs();
   await signin();
   await top10();
+  await favorites();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -70,38 +73,46 @@ async function slider() {
   var celebsswiper = new Swiper(".celebsswiper", {
     slidesPerView: 3,
     spaceBetween: 70,
-    navigation: {
-      nextEl: ".celebs .swiper-button-next",
-      prevEl: ".celebs .swiper-button-prev",
-    },
     breakpoints: {
       0: { navigation: false, spaceBetween: 110, slidesPerView: 3 },
       768: {
         slidesPerView: 6,
         spaceBetween: 0,
         navigation: {
-          nextEl: ".celebs .swiper-button-next",
-          prevEl: ".celebs .swiper-button-prev",
+          nextEl: ".celebrities .swiper-button-next",
+          prevEl: ".celebrities .swiper-button-prev",
         },
       },
     },
   });
 
-  var swiper = new Swiper(".top10swiper", {
+  var top10swiper = new Swiper(".top10swiper", {
     slidesPerView: 3,
     spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
     breakpoints: {
       0: { navigation: false, spaceBetween: 2, slidesPerView: 2 },
       768: {
         slidesPerView: 6,
         spaceBetween: 0,
         navigation: {
-          nextEl: ".celebs .swiper-button-next",
-          prevEl: ".celebs .swiper-button-prev",
+          nextEl: ".top10 .swiper-button-next",
+          prevEl: ".top10 .swiper-button-prev",
+        },
+      },
+    },
+  });
+
+  var favoritesswiper = new Swiper(".favoritesswiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    breakpoints: {
+      0: { navigation: false, spaceBetween: 2, slidesPerView: 2 },
+      768: {
+        slidesPerView: 6,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".favorites .swiper-button-next",
+          prevEl: ".favorites .swiper-button-prev",
         },
       },
     },

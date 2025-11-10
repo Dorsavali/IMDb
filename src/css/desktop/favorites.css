@@ -1,14 +1,23 @@
-.top10 {
+.favorites {
   padding: 20px 115px;
   gap: 50px;
-  .titletop10 {
-    .bar {
+  .titlefavorites {
+    width: 100%;
+    align-items: start;
+    .title {
+      .bar {
+      }
+      .text {
+        font-size: 24px;
+      }
+      .chev {
+        font-size: 30px;
+      }
     }
-    .text {
-      font-size: 24px;
-    }
-    .chev {
-      font-size: 30px;
+    .descirption {
+      width: 100%;
+      font-size: 16px; 
+      margin-left: 18px;
     }
   }
   .swiper {
@@ -18,7 +27,7 @@
     justify-content: start;
     .cover {
       width: 195px;
-      height: 480px;
+      height: 500px;
       gap: 15px;
       .img {
         img {
@@ -55,23 +64,24 @@
 
   .swiper-slide img {
   }
-  .swiper-button-next ,.swiper-button-prev{
+  .swiper-button-next,
+  .swiper-button-prev {
     background-color: rgba(0, 0, 0, 0.405);
     padding: 8px 12px;
     border: 0.7px solid white;
     width: 16px;
     color: white;
     border-radius: 4px;
-    
-    &:hover{
+
+    &:hover {
       color: rgb(245, 197, 24);
     }
   }
-  .swiper-button-next{
+  .swiper-button-next {
     right: 1%;
     top: 40%;
   }
-  .swiper-button-prev{
+  .swiper-button-prev {
     left: 0;
     top: 40%;
   }

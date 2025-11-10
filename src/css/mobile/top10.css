@@ -36,6 +36,9 @@
       margin-left: auto;
       font-weight: 700;
       font-size: 20px;
+      &:hover{
+        color: #ffd400;
+    }
     }
   }
   .swiper {
@@ -164,4 +167,5 @@
     height: 100%;
     object-fit: cover;
   }
+
 }

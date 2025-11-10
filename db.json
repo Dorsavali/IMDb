@@ -574,5 +574,95 @@
       "title": "10. Nobody Wants This",
       "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
     }
+  ],
+  "titlefavorites": [
+    {
+      "title": "Fan favorites",
+      "chev": "›",
+      "description": "This week's top TV and movies"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top9.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.7,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Frankenstein",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 2,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top4.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.5,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Weapons",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 3,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/fan1.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 6.4,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Predator: Badlands",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 4,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/fan2.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 6.4,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "The Fantastic Four: First Steps",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 5,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top6.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.7,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Bugonia",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+
+    {
+      "id": 6,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top7.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 8.2,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "One Battle After Another",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 7,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/fan3.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 8.6,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Chainsaw Man - The Movie: Reze Arc",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 8,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top8.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 5.8,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Ballad of a Small Player",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    }
   ]
 }

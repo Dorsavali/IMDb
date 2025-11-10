@@ -107,11 +107,11 @@
     }
   }
   .swiper-button-next{
-    right: 0;
+    right: 1%;
     top: 40%;
   }
   .swiper-button-prev{
-    left: 0;
+    left: 0%;
     top: 40%;
   }
 }
