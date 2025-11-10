@@ -1,0 +1,58 @@
+.top10 {
+  padding: 20px 115px;
+  gap: 50px;
+  .titletop10 {
+    .bar {
+    }
+    .text {
+      font-size: 28px;
+    }
+    .chev {
+      font-size: 30px;
+    }
+  }
+  .swiper {
+  }
+
+  .swiper-slide {
+    justify-content: start;
+    .cover {
+      width: 195px;
+      height: 480px;
+      gap: 15px;
+      .img {
+        img {
+          &:nth-child(2) {
+          }
+        }
+      }
+      .ratings {
+        .stars {
+          img {
+          }
+        }
+        .star img {
+        }
+      }
+      .title {
+      }
+
+      .buttons {
+        button {
+          padding: 10px;
+          &.watch {
+          }
+
+          img {
+          }
+
+          &:first-child {
+          }
+        }
+      }
+    }
+  }
+
+  .swiper-slide img {
+  }
+}

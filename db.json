@@ -275,7 +275,7 @@
       "heartNum": "212"
     },
     {
-      "id": 1,
+      "id": 2,
       "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/wickedPoster.jpg",
       "imgMovieAlt": "moviePoster",
       "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSlider.svg",
@@ -291,7 +291,7 @@
       "heartNum": "741"
     },
     {
-      "id": 1,
+      "id": 3,
       "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/jacksonPoster.jpg",
       "imgMovieAlt": "moviePoster",
       "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSlider.svg",
@@ -464,6 +464,115 @@
       "heading": "Sign in to access your Watchlist",
       "sub": "Save shows and movies to keep track of what you want to watch.",
       "signinBtn": "Sign in to IMDb"
+    }
+  ],
+  "titletop10": [
+    {
+      "title": "Top 10 on IMDb this week",
+      "chev": "›"
+    }
+  ],
+  "top10": [
+    {
+      "id": 1,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top1.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.8,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "1. IT: Welcome to Derry",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 2,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top2.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.9,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "2. The Witcher",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 3,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top3.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 6.4,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "3. A House of Dynamite",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 4,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top4.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.5,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "4. Weapons",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 5,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top5.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 8.6,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "5. Stranger Things",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+
+    {
+      "id": 6,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top6.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.7,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "6. Bugonia",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 7,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top7.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 8.2,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "7. One Battle After Another",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 8,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top8.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 5.8,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "8. Ballad of a Small Player",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 9,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top9.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.7,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "9. Frankenstein",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 10,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/top10.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.8,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "10. Nobody Wants This",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
     }
   ]
 }

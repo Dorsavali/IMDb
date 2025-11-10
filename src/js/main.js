@@ -4,6 +4,7 @@ import imdbHero from "./ImdbHero/ImdbHero";
 import featured from "./featured/featured";
 import celebs from "./celebs/celebs";
 import signin from "./signin/signin";
+import top10 from "./top10/top10";
 
 async function allData() {
   await slider();
@@ -17,6 +18,7 @@ async function slider() {
   await featured();
   await celebs();
   await signin();
+  await top10();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -73,7 +75,27 @@ async function slider() {
       prevEl: ".celebs .swiper-button-prev",
     },
     breakpoints: {
-      0: { navigation: false, spaceBetween: 70, slidesPerView: 3 },
+      0: { navigation: false, spaceBetween: 110, slidesPerView: 3 },
+      768: {
+        slidesPerView: 6,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".celebs .swiper-button-next",
+          prevEl: ".celebs .swiper-button-prev",
+        },
+      },
+    },
+  });
+
+  var swiper = new Swiper(".top10swiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: { navigation: false, spaceBetween: 2, slidesPerView: 2 },
       768: {
         slidesPerView: 6,
         spaceBetween: 0,
