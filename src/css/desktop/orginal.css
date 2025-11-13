@@ -1,0 +1,108 @@
+.orginal {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 115px;
+  box-sizing: border-box;
+  background-color: black;
+  gap: 20px;
+  .orginal-header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    gap: 5px;
+    .orginal-top {
+      font-weight: 500;
+      font-size: 28px;
+    }
+    .titleorginal {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      cursor: pointer;
+      .title {
+        .bar {
+        }
+        .text {
+          font-size: 22px;
+        }
+        .chev {
+          &:hover {
+          }
+        }
+      }
+    }
+    .description {
+    }
+  }
+  .swiper {
+background-color: black;
+  }
+  .swiper-slide {
+    width: 404px !important;
+    height: 347px;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column nowrap;
+    gap: 15px;
+    padding: 0px 0px;
+
+    .poster {
+
+      width: 100%;
+      height: 227px;
+      img {
+      }
+      &::after {
+
+      }
+      .list {
+        bottom: 0;
+        left: 0;
+        img {
+          width: 48px;
+          height: 48px;
+        }
+      }
+    }
+    .title {
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    .description {
+&:hover{
+  text-decoration: underline;
+}
+    }
+  }
+  .swiper-slide img {
+
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-color: rgba(0, 0, 0, 0.405);
+    padding: 8px 12px;
+    border: 0.7px solid white;
+    width: 16px;
+    color: white;
+    border-radius: 4px;
+
+    &:hover {
+      color: rgb(245, 197, 24);
+    }
+  }
+  .swiper-button-next {
+    right: 0%;
+    top: 40%;
+  }
+  .swiper-button-prev {
+    left: 0%;
+    top: 40%;
+  }
+}

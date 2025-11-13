@@ -7,6 +7,7 @@ import signin from "./signin/signin";
 import top10 from "./top10/top10";
 import favorites from "./favorites/favorites";
 import genre from "./genre/genre";
+import orginal from "./orginal/orginal";
 
 async function allData() {
   await slider();
@@ -23,6 +24,7 @@ async function slider() {
   await top10();
   await favorites();
   await genre();
+  await orginal();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -118,6 +120,7 @@ async function slider() {
       },
     },
   });
+  
   var genreswiper = new Swiper(".genreswiper", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -129,6 +132,28 @@ async function slider() {
         navigation: {
           nextEl: ".genre .swiper-button-next",
           prevEl: ".genre .swiper-button-prev",
+        },
+      },
+    },
+  });
+
+  var orginalswiper = new Swiper(".orginalswiper", {
+    slidesPerView: 3,
+    spaceBetween: 0,
+    loop: true,
+    navigation: {
+      nextEl: ".orginal .swiper-button-next",
+      prevEl: ".orginal .swiper-button-prev",
+    },
+    breakpoints: {
+      0: { navigation: false, loop: true , slidesPerView: 1 , spaceBetween: 0 },
+      768: {
+        spaceBetween: 27,
+        slidesPerView: 3 ,
+        navigation: {
+          loop: true,
+          nextEl: ".orginal .swiper-button-next",
+          prevEl: ".orginal .swiper-button-prev",
         },
       },
     },

@@ -721,5 +721,63 @@
       "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
       "title": "Anime"
     }
+  ],
+  "titleorginal": [
+    {
+      "orginalHeader": "Exclusive videos",
+      "title": "IMDb Originals",
+      "description": "Celebrity interviews, trending entertainment stories, and expert analysis",
+      "chev": "›"
+    }
+  ],
+  "orginal": [
+    {
+      "id": 1,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/org1.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "2:34",
+      "title": "Inside Guillermo del Toro's 'Frankenstein'",
+      "description": "Watch the interview"
+    },
+    {
+      "id": 2,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/org2.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "5:38",
+      "title": "Adapting a Beloved YA Story",
+      "description": "Watch now"
+    },
+    {
+      "id": 3,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/org3.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "4:12",
+      "title": "'After the Hunt' Isn't Supposed to Make You Feel Comfortable",
+      "description": "Watch the Interview"
+    },
+    {
+      "id": 4,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/org4.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "1:28",
+      "title": "The Alien Emotions & Radical Effects of 'Predator: Badlands'",
+      "description": "Watch now"
+    },
+    {
+      "id": 5,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/org5.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "2:24",
+      "title": "Mckenna Grace's Second Best Interview Ever",
+      "description": "Watch the interview"
+    },
+    {
+      "id": 6,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/org6.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "6:34",
+      "title": "The IT: Welcome to Derry Cast's Childhood Nightmares",
+      "description": "Watch the interview"
+    }
   ]
 }
