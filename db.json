@@ -779,5 +779,155 @@
       "title": "The IT: Welcome to Derry Cast's Childhood Nightmares",
       "description": "Watch the interview"
     }
+  ],
+  "primetitle": [
+    {
+      "title": "Explore what’s streaming",
+      "moreLink": "Set your preferred services",
+      "text": "PRIME VIDEO",
+      "heading": "Included with prime"
+    }
+  ],
+  "prime": [
+    {
+      "id": 1,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prime1.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.7,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "The Voyeurs",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 2,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prime2.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.5,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Chehre",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 3,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prime3.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 6.4,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Cinderella",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 4,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prime4.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 6.4,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "The Tomorrow War",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 5,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prime5.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 7.7,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Black as Night",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+
+    {
+      "id": 6,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prime6.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 8.2,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "The Manor",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 7,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prime7.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 8.6,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Bingo Hell",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    },
+    {
+      "id": 8,
+      "imgMovieSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/prime8.jpg",
+      "imgWatchlist": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "starSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/startYellow.svg",
+      "number": 5.8,
+      "staroutline": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/starBlue.svg",
+      "title": "Everybody's Talking About Jamie",
+      "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
+    }
+  ],
+ "titleexplore": [
+    {
+      "exploreHeader": "Explore movies & TV shows",
+      "title": "Top box office (US)",
+      "description": "Weekend of November 7-9",
+      "chev": "›"
+    }
+  ],
+  "explore":[
+    {
+      "id":1,
+      "number":1,
+      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "name": "Predator: Badlands",
+      "oldprice": "$40M",
+      "total": ".  Total $53M"
+    },
+    {
+      "id":2,
+      "number":2,
+      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "name": "Regretting You",
+      "oldprice": "$6.7M",
+      "total": ".  Total $41M"
+    },
+    {
+      "id":3,
+      "number":3,
+      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "name": "Black Phone 2",
+      "oldprice": "$5.2M",
+      "total": ".  Total $72M"
+    },
+    {
+      "id":4,
+      "number":4,
+      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "name": "Sarah's Oil",
+      "oldprice": "$4.3M",
+      "total": ".  Total $6.3M"
+    },
+    {
+      "id":5,
+      "number":5,
+      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "name": "Nuremberg",
+      "oldprice": "$$3.9M",
+      "total": ".  Total $6.1M"
+    },
+    {
+      "id":1,
+      "number":6,
+      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "name": "Bugonia",
+      "oldprice": "$3.4M",
+      "total": ".  Total $14M"
+    }
+
   ]
 }

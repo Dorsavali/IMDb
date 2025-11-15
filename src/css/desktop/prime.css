@@ -1,0 +1,94 @@
+.prime {
+  padding: 60px 115px;
+  .primetitle {
+    padding: 0px 16px;
+    box-sizing: border-box;
+    gap: 20px;
+    .top {
+      width: 100%;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      .title {
+        font-size: 28px;
+        font-weight: 900;
+      }
+      .more-link {
+        font-size: 14px;
+        &:hover {
+        }
+      }
+    }
+    .header {
+      .prime-text {
+      }
+      .prime-description {
+      }
+    }
+  }
+  .swiper {
+  }
+  .swiper-slide {
+    .cover {
+      width: 195px;
+      height: 500px;
+      gap: 15px;
+      .img {
+        img {
+          &:nth-child(2) {
+          }
+        }
+        &:hover {
+        }
+      }
+      .ratings {
+        .stars {
+          img {
+          }
+        }
+        .star img {
+        }
+      }
+      .title {
+      }
+      .buttons {
+        button {
+          &.watch {
+          }
+          img {
+          }
+          &:first-child {
+          }
+          &:hover {
+          }
+        }
+      }
+    }
+  }
+  .swiper-slide img {
+  }
+  .swiper-slide img {
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-color: rgba(0, 0, 0, 0.405);
+    padding: 8px 12px;
+    border: 0.7px solid white;
+    width: 16px;
+    color: white;
+    border-radius: 4px;
+
+    &:hover {
+      color: rgb(245, 197, 24);
+    }
+  }
+  .swiper-button-next {
+    right: 1%;
+    top: 40%;
+  }
+  .swiper-button-prev {
+    left: 0;
+    top: 40%;
+  }
+}

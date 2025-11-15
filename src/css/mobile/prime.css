@@ -1,0 +1,202 @@
+.prime {
+
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0px;
+  box-sizing: border-box;
+  background-color: black;
+  .primetitle {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    gap: 20px;
+    .top{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+        .title {
+            color: #ffd400;
+            font-size: 22px;
+            font-family: roboto;
+            font-weight: 600;
+            letter-spacing: 0.2px;
+          }
+      
+          .more-link {
+            color: #1e90ff;
+            text-decoration: none;
+            font-size: 12px;
+            font-family: roboto;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            padding-left: 10px;
+            box-sizing: border-box;
+            &:hover {
+              text-decoration: underline;
+            }
+    }
+    }
+    .header{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        gap: 20px;
+        .prime-text{
+            color: #fff;
+            font-weight: 600;
+            font-size: 14px;
+            font-family: roboto;
+            letter-spacing: 0.7px;
+            border-bottom: 3px solid #1e90ff;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        .prime-description{
+            color: #fff;
+            font-weight: 300;
+            font-size: 16px;
+            font-family: roboto;
+            letter-spacing: 0.7px;
+            padding-bottom: 20px;
+            box-sizing: border-box;
+        }
+    }
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .cover {
+      background: #111;
+      color: #fff;
+      width: 150px;
+      height: 405px;
+      border-radius: 10px;
+      overflow: hidden;
+      font-family: roboto;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      padding-bottom: 10px;
+
+      .img {
+        position: relative;
+
+        img {
+          width: 100%;
+          display: block;
+
+          &:nth-child(2) {
+            position: absolute;
+            top: 0;
+            left: 8px;
+            width: 40px;
+            height: 70px;
+          }
+        }
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+
+      .ratings {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4px 8px;
+        font-size: 0.9rem;
+
+        .stars {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          font-family: roboto;
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 0.5;
+          opacity: 0.7;
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+
+        .star img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      .title {
+        padding: 0 8px;
+        font-family: roboto;
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5px;
+        line-height: 20px;
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 8px;
+
+        button {
+          background: #111111;
+          color: #fff;
+          border: none;
+          border-radius: 16px;
+          padding: 6px 10px;
+          font-family: roboto;
+          font-size: 14px;
+          cursor: pointer;
+          transition: background 0.3s ease;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          &.watch {
+            color: rgb(87, 153, 239);
+          }
+          img {
+            width: 14px;
+            height: 14px;
+            vertical-align: middle;
+          }
+          &:first-child {
+            background: #1a1a1a;
+            font-weight: 600;
+          }
+          &:hover {
+            background-color: #3d3d3d;
+          }
+        }
+      }
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

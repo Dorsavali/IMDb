@@ -8,6 +8,8 @@ import top10 from "./top10/top10";
 import favorites from "./favorites/favorites";
 import genre from "./genre/genre";
 import orginal from "./orginal/orginal";
+import prime from "./prime/prime";
+import explore from "./explore/explore";
 
 async function allData() {
   await slider();
@@ -25,6 +27,8 @@ async function slider() {
   await favorites();
   await genre();
   await orginal();
+  await prime();
+  await explore();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -120,7 +124,7 @@ async function slider() {
       },
     },
   });
-  
+
   var genreswiper = new Swiper(".genreswiper", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -146,14 +150,30 @@ async function slider() {
       prevEl: ".orginal .swiper-button-prev",
     },
     breakpoints: {
-      0: { navigation: false, loop: true , slidesPerView: 1 , spaceBetween: 0 },
+      0: { navigation: false, loop: true, slidesPerView: 1, spaceBetween: 0 },
       768: {
         spaceBetween: 27,
-        slidesPerView: 3 ,
+        slidesPerView: 3,
         navigation: {
           loop: true,
           nextEl: ".orginal .swiper-button-next",
           prevEl: ".orginal .swiper-button-prev",
+        },
+      },
+    },
+  });
+
+  var primeswiper = new Swiper(".primeswiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    breakpoints: {
+      0: { navigation: false, spaceBetween: 2, slidesPerView: 2 },
+      768: {
+        slidesPerView: 6,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".prime .swiper-button-next",
+          prevEl: ".prime .swiper-button-prev",
         },
       },
     },

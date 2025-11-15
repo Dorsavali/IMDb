@@ -1,0 +1,134 @@
+.explore{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  .explore-header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+    .explore-top {
+      color: #ffd400;
+      font-size: 22px;
+      font-family: roboto;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      padding-bottom: 30px;
+      box-sizing: border-box;
+    }
+    .titleexplore {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      cursor: pointer;
+
+      .title {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        .bar {
+          width: 6px;
+          height: 32px;
+          background: #ffd400;
+          border-radius: 2px;
+          display: inline-block;
+        }
+
+        .text {
+          color: #fff;
+          font-weight: 600;
+          font-size: 18px;
+          font-family: roboto;
+          letter-spacing: 0.7px;
+        }
+
+        .chev {
+          color: #fff;
+          margin-left: auto;
+          font-weight: 700;
+          font-size: 20px;
+          &:hover {
+            color: #ffd400;
+          }
+        }
+      }
+    }
+    .description {
+      color: white;
+      opacity: 0.7;
+      line-height: 1.5;
+      font-family: roboto;
+      font-size: 16px;
+      font-weight: 500;
+      padding-left: 5px;
+      box-sizing: border-box;
+    }
+  }
+  .list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .items {
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .item{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        .number{
+            font-family: roboto;
+            font-size: 14px;
+            font-weight: 500;
+            color: white;
+        }
+        .name-price{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: start;
+            gap: 5px;
+            .name{
+                font-family: roboto;
+                font-size: 16px;
+                font-weight: 400;
+                color: rgb(87, 153, 239);
+                letter-spacing: 0.7px;
+            }
+            .prices{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                .old , .total{
+                    font-family: roboto;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: white;
+                    opacity: 0.7;
+                    letter-spacing: 0.7px;
+                }
+            }
+        }
+      }
+    }
+  }
+}
