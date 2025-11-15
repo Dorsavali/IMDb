@@ -10,6 +10,7 @@ import genre from "./genre/genre";
 import orginal from "./orginal/orginal";
 import prime from "./prime/prime";
 import explore from "./explore/explore";
+import soon from "./soon/soon";
 
 async function allData() {
   await slider();
@@ -29,6 +30,7 @@ async function slider() {
   await orginal();
   await prime();
   await explore();
+  await soon();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -174,6 +176,28 @@ async function slider() {
         navigation: {
           nextEl: ".prime .swiper-button-next",
           prevEl: ".prime .swiper-button-prev",
+        },
+      },
+    },
+  });
+
+  var soonswiper = new Swiper(".soonswiper", {
+    slidesPerView: 3,
+    spaceBetween: 0,
+    loop: true,
+    navigation: {
+      nextEl: ".soon .swiper-button-next",
+      prevEl: ".soon .swiper-button-prev",
+    },
+    breakpoints: {
+      0: { navigation: false, loop: true, slidesPerView: 1, spaceBetween: 0 },
+      768: {
+        spaceBetween: 27,
+        slidesPerView: 3,
+        navigation: {
+          loop: true,
+          nextEl: ".soon .swiper-button-next",
+          prevEl: ".soon .swiper-button-prev",
         },
       },
     },

@@ -929,5 +929,99 @@
       "total": ".  Total $14M"
     }
 
+  ],
+  "titlesoon": [
+    {
+      "title": "Coming soon to theaters",
+      "description": "Trailers for upcoming releases",
+      "chev": "›"
+    }
+  ],
+  "soon": [
+    {
+      "id": 1,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/explore1.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "2:34",
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "date":"NOV 1",
+      "title": "Wicked: For Good",
+      "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
+      "imgLikeAlt": "like",
+      "likeNum": "705",
+      "heartSpan": "❤️",
+      "heartNum": "413"
+    },
+    {
+      "id": 2,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/explore2.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "2:34",
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "date":"DEC 5",
+      "title": "Five Nights at Freddy's 2",
+      "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
+      "imgLikeAlt": "like",
+      "likeNum": "705",
+      "heartSpan": "❤️",
+      "heartNum": "413"
+    },
+    {
+      "id": 3,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/explore3.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "2:34",
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "date":"NOV 26",
+      "title": "Zootopia 2",
+      "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
+      "imgLikeAlt": "like",
+      "likeNum": "705",
+      "heartSpan": "❤️",
+      "heartNum": "413"
+    },
+    {
+      "id": 4,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/explore4.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "2:34",
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "date":"DEC 25",
+      "title": "Song Sung Blue",
+      "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
+      "imgLikeAlt": "like",
+      "likeNum": "705",
+      "heartSpan": "❤️",
+      "heartNum": "413"
+    },
+    {
+      "id": 5,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/explore5.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "2:34",
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "date":"DEC 5",
+      "title": "Kill Bill: The Whole Bloody Affair",
+      "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
+      "imgLikeAlt": "like",
+      "likeNum": "705",
+      "heartSpan": "❤️",
+      "heartNum": "413"
+    },
+    {
+      "id": 6,
+      "imgSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/explore6.jpg",
+      "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
+      "number": "2:34",
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "date":"DEC 19",
+      "title": "Avatar: Fire and Ash",
+      "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
+      "imgLikeAlt": "like",
+      "likeNum": "705",
+      "heartSpan": "❤️",
+      "heartNum": "413"
+    }
+   
   ]
 }
