@@ -11,6 +11,7 @@ import orginal from "./orginal/orginal";
 import prime from "./prime/prime";
 import explore from "./explore/explore";
 import soon from "./soon/soon";
+import born from "./born/born";
 
 async function allData() {
   await slider();
@@ -31,6 +32,7 @@ async function slider() {
   await prime();
   await explore();
   await soon();
+  await born();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
@@ -198,6 +200,22 @@ async function slider() {
           loop: true,
           nextEl: ".soon .swiper-button-next",
           prevEl: ".soon .swiper-button-prev",
+        },
+      },
+    },
+  });
+
+  var bornswiper = new Swiper(".bornswiper", {
+    slidesPerView: 3,
+    spaceBetween: 70,
+    breakpoints: {
+      0: { navigation: false, spaceBetween: 110, slidesPerView: 3 },
+      768: {
+        slidesPerView: 6,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".born .swiper-button-next",
+          prevEl: ".born .swiper-button-prev",
         },
       },
     },

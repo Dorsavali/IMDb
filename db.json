@@ -871,7 +871,7 @@
       "trailerSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/playBtn.svg"
     }
   ],
- "titleexplore": [
+  "titleexplore": [
     {
       "exploreHeader": "Explore movies & TV shows",
       "title": "Top box office (US)",
@@ -879,56 +879,55 @@
       "chev": "›"
     }
   ],
-  "explore":[
+  "explore": [
     {
-      "id":1,
-      "number":1,
-      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "id": 1,
+      "number": 1,
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
       "name": "Predator: Badlands",
       "oldprice": "$40M",
       "total": ".  Total $53M"
     },
     {
-      "id":2,
-      "number":2,
-      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "id": 2,
+      "number": 2,
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
       "name": "Regretting You",
       "oldprice": "$6.7M",
       "total": ".  Total $41M"
     },
     {
-      "id":3,
-      "number":3,
-      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "id": 3,
+      "number": 3,
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
       "name": "Black Phone 2",
       "oldprice": "$5.2M",
       "total": ".  Total $72M"
     },
     {
-      "id":4,
-      "number":4,
-      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "id": 4,
+      "number": 4,
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
       "name": "Sarah's Oil",
       "oldprice": "$4.3M",
       "total": ".  Total $6.3M"
     },
     {
-      "id":5,
-      "number":5,
-      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "id": 5,
+      "number": 5,
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
       "name": "Nuremberg",
       "oldprice": "$$3.9M",
       "total": ".  Total $6.1M"
     },
     {
-      "id":1,
-      "number":6,
-      "watchlistSrc":"https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
+      "id": 1,
+      "number": 6,
+      "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
       "name": "Bugonia",
       "oldprice": "$3.4M",
       "total": ".  Total $14M"
     }
-
   ],
   "titlesoon": [
     {
@@ -944,7 +943,7 @@
       "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
       "number": "2:34",
       "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
-      "date":"NOV 1",
+      "date": "NOV 1",
       "title": "Wicked: For Good",
       "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
       "imgLikeAlt": "like",
@@ -958,7 +957,7 @@
       "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
       "number": "2:34",
       "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
-      "date":"DEC 5",
+      "date": "DEC 5",
       "title": "Five Nights at Freddy's 2",
       "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
       "imgLikeAlt": "like",
@@ -972,7 +971,7 @@
       "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
       "number": "2:34",
       "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
-      "date":"NOV 26",
+      "date": "NOV 26",
       "title": "Zootopia 2",
       "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
       "imgLikeAlt": "like",
@@ -986,7 +985,7 @@
       "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
       "number": "2:34",
       "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
-      "date":"DEC 25",
+      "date": "DEC 25",
       "title": "Song Sung Blue",
       "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
       "imgLikeAlt": "like",
@@ -1000,7 +999,7 @@
       "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
       "number": "2:34",
       "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
-      "date":"DEC 5",
+      "date": "DEC 5",
       "title": "Kill Bill: The Whole Bloody Affair",
       "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
       "imgLikeAlt": "like",
@@ -1014,7 +1013,7 @@
       "imgPlay": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/play.svg",
       "number": "2:34",
       "watchlistSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/watchlistSliderLight.svg",
-      "date":"DEC 19",
+      "date": "DEC 19",
       "title": "Avatar: Fire and Ash",
       "imgLikeSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/like.svg",
       "imgLikeAlt": "like",
@@ -1022,6 +1021,63 @@
       "heartSpan": "❤️",
       "heartNum": "413"
     }
-   
+  ],
+  "titleborn": [
+    {
+      "bornHeader": "More to explore",
+      "title": "Born today",
+      "description": "People born on November 16",
+      "chev": "›"
+    }
+  ],
+  "born": [
+    {
+      "id": 1,
+      "bornSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/born1.jpg",
+      "number": 55,
+      "name": "Martha Plimpton"
+    },
+    {
+      "id": 2,
+      "bornSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/born2.jpg",
+      "number": 33,
+      "name": "Chelsea Frei"
+    },
+    {
+      "id": 3,
+      "bornSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/born3.jpg",
+      "number": 48,
+      "name": "Maggie Gyllenhaal"
+    },
+    {
+      "id": 4,
+      "bornSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/born4.jpg",
+      "number": 49,
+      "name": "Missi Pyle"
+    },
+    {
+      "id": 5,
+      "bornSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/born5.jpg",
+      "number": 32,
+      "name": "Pete Davidson"
+    },
+    {
+      "id": 6,
+      "bornSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/born6.jpg",
+      "number": 50,
+      "name": "David Leitch"
+    },
+    {
+      "id": 7,
+      "bornSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/born7.jpg",
+      "number": 40,
+      "name": "Miguel Sandoval"
+    },
+    {
+      "id": 8,
+      "bornSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/born8.jpg",
+      "number": 83,
+      "name": "Charlie Hunnam"
+    }
   ]
 }

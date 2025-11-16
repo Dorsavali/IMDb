@@ -1,6 +1,8 @@
-.soon {
+.born {
   padding: 20px 115px;
-  .soon-header {
+  background-color: black;
+  gap: 20px;
+  .born-header {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -8,13 +10,22 @@
     padding: 0px 16px;
     box-sizing: border-box;
     gap: 5px;
-    .titlesoon {
+    .born-top {
+      font-weight: 500;
+      font-size: 28px;
+    }
+    .titleborn {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+
       .title {
         .bar {
         }
 
         .text {
-          font-size: 22px;
         }
 
         .chev {
@@ -29,51 +40,18 @@
   .swiper {
   }
   .swiper-slide {
-    width: 404px !important;
-    height: 360px;
-    justify-content: start;
-    align-items: start;
-    flex-flow: column nowrap;
-    gap: 7px;
-    padding: 0px 5px;
-    box-sizing: border-box;
-    .poster {
-      width: 100%;
-      height: 227px;
+    .celebs {
       img {
+        width: 200px;
+        height: 200px;
       }
-      &::after {
+      .name {
       }
-      .list {
-        bottom: 0%;
-        left: 0%;
-        img {
-          width: 48px;
-          height: 48px;
+      .ratings {
+        .number {
         }
       }
     }
-    .text {
-      .left {
-      }
-      .right {
-        .title {
-          font-size: 18px;
-        }
-        .date {
-          font-size: 14px;
-        }
-        .ratings {
-          .likes,
-          .hearts {
-            img {
-            }
-          }
-        }
-      }
-    }
-  }
-  .swiper-slide img {
   }
   .swiper-button-next,
   .swiper-button-prev {
@@ -93,7 +71,7 @@
     top: 40%;
   }
   .swiper-button-prev {
-    left: 0;
+    left: 0%;
     top: 40%;
   }
 }
