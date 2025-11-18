@@ -1,0 +1,9 @@
+.recently{
+    padding: 60px 115px;
+    gap: 80px;
+    .title{
+        font-size: 24px;
+    }
+    .description{
+    }
+}

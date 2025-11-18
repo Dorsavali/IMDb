@@ -13,6 +13,7 @@ import explore from "./explore/explore";
 import soon from "./soon/soon";
 import born from "./born/born";
 import news from "./news/news";
+import recently from "./recently/recently";
 
 async function allData() {
   await slider();
@@ -35,6 +36,7 @@ async function slider() {
   await soon();
   await born();
   await news();
+  await recently();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,
