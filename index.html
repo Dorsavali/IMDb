@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://8upload.com/image/6905cb6688cef/favicon.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows
+    </title>
+    <script type="module" crossorigin src="./assets/index-Dqap01Q9.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-4mCmS8l4.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <div class="left">
+          <div class="logo"></div>
+          <div
+            class="menuLogo show-text"
+            id="menuToggle"
+            aria-label="Open menu"
+          ></div>
+        </div>
+        <div class="search show-input">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            class="ipc-icon ipc-icon--magnify"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            role="presentation"
+          >
+            <path fill="none" d="M0 0h24v24H0V0z"></path>
+            <path
+              d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            ></path>
+          </svg>
+          <div class="options">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              class="arrow ipc-icon ipc-icon--arrow-drop-down ipc-btn__icon ipc-btn__icon--post searchCatSelector-button-post-icon"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              role="presentation"
+            >
+              <path fill="none" d="M0 0h24v24H0V0z"></path>
+              <path
+                d="M8.71 11.71l2.59 2.59c.39.39 1.02.39 1.41 0l2.59-2.59c.63-.63.18-1.71-.71-1.71H9.41c-.89 0-1.33 1.08-.7 1.71z"
+              ></path>
+            </svg>
+            <div class="submenu">
+              <ul id="submenu"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="pro show-pro"></div>
+          <div class="watchlist show-item"></div>
+          <div class="signIn"></div>
+          <div class="useApp"></div>
+          <div class="lang show-lang"></div>
+        </div>
+      </header>
+      <nav class="sidebar-menu" id="sidebarMenu">
+        <div class="header">
+          <button class="close-btn" id="closeSidebarBtn">&times;</button>
+        </div>
+        <ul></ul>
+      </nav>
+      <div class="sidebar-overlay" id="sidebarOverlay"></div>
+      <!--imdb Hero-->
+      <div class="imdbHero">
+        <div class="left">
+          <div class="swiper imdbHeroSwiper">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="right show-right">
+          <div class="titleDiv"></div>
+          <div class="items"></div>
+          <div class="trailers"></div>
+        </div>
+      </div>
+      <!--featured-->
+      <div class="featured">
+        <div class="titleFeatured"></div>
+        <div class="swiper featuredswiper">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--celebrity-->
+      <div class="celebrities">
+        <div class="titleCelebs"></div>
+        <div class="swiper celebsswiper">
+          <div class="swiper-wrapper">
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--sign in-->
+      <div class="signin">
+      </div>
+      <!--top 10 this week-->
+      <div class="top10">
+        <div class="titletop10">
+
+        </div>
+        <div class="swiper top10swiper">
+          <div class="swiper-wrapper">
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--fan favorites-->
+      <div class="favorites">
+        <div class="titlefavorites">
+        </div>
+        <div class="swiper favoritesswiper">
+          <div class="swiper-wrapper">
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--genre-->
+      <div class="genre">
+        <div class="titlegenre">
+        </div>
+        <div class="swiper genreswiper">
+          <div class="swiper-wrapper">
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--orginal-->
+      <div class="orginal">
+        <div class="orginal-header">
+       
+        </div>
+        
+        <div class="swiper orginalswiper">
+
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--prime-->
+      <div class="prime">
+       <div class="primetitle"></div>
+        <div class="swiper primeswiper">
+          <div class="swiper-wrapper">
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--explore-->
+      <div class="explore">
+        <div class="explore-header">
+        </div>
+         <div class="list">
+          <div class="items"> 
+          </div>
+         </div>
+       </div>
+      <!--coming soon-->
+      <div class="soon">
+        <div class="soon-header">
+       
+        </div>
+        <div class="swiper soonswiper">
+
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--born today-->
+      <div class="born">
+        <div class="born-header">
+       
+        </div>
+        <div class="swiper bornswiper">
+          <div class="swiper-wrapper">
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <!--news-->
+      <div class="news">
+        <div class="titlenews"></div>
+        <div class="box">
+          <div class="left">
+            <div class="topnews"></div>
+            <div class="bottomnews"></div>
+          </div>
+          <div class="rightnews"></div>
+        </div>
+      </div>
+      <!--recently-->
+      <div class="recently">
+      </div>
+      <!--footer-->
+      <footer>
+        <div class="imdbapp">
+        </div>
+        <button class="button"></button>
+        <div class="social-app">
+          <div class="social">
+            <div class="title">
+              
+            </div>
+            <div class="icon">
+
+            </div>
+          </div>
+          <div class="appqr">
+            
+          </div>
+        </div>
+        <div class="links">
+
+        </div>
+        <div class="easy-accses">
+        </div>
+        <div class="amazon">
+          
+        </div>
+        <div class="copyright">
+        
+        </div>
+      </footer>
+    </div>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
