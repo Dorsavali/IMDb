@@ -1,0 +1,104 @@
+.news {
+  padding: 20px 115px;
+  gap: 50px;
+  height: 600px;
+  .titlenews {
+    .title {
+      .bar {
+      }
+      .text {
+        font-size: 24px;
+      }
+      .chev {
+        font-size: 30px;
+        &:hover {
+        }
+      }
+    }
+  }
+  .box {
+    flex-flow: row nowrap;
+    align-items: start;
+    gap: 24px;
+    width: 100%;
+height: 100%;
+    .left {
+      width: 65%;
+      .topnews {
+        width: 100%;
+        .itemtop {
+          height: 133px;
+          gap: 20px;
+          .img {
+            img {
+            }
+          }
+          .text {
+            gap: 10px;
+            .title {
+
+            }
+            .description {
+
+            }
+            .date-text {
+
+              .date,
+              .text {
+
+              }
+            }
+          }
+        }
+      }
+      .bottomnews {
+        flex-flow: row wrap;
+        overflow-x: unset;
+        overflow-y: unset;
+        scroll-behavior: unset;
+        white-space: unset;
+        gap: 20px;
+        .item {
+padding: 16px 0px;
+          .img {
+ 
+            img {
+
+            }
+          }
+          .text {
+
+            .title {
+              white-space: normal;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2; 
+               -webkit-box-orient: vertical;
+            }
+            .date-text {
+    
+              .date,
+              .text {
+     
+              }
+            }
+          }
+        }
+      }
+    }
+    .rightnews {
+      width: 35%;
+
+      .title {
+
+      }
+      .buttons {
+
+        .btn {
+
+        }
+      }
+    }
+  }
+}

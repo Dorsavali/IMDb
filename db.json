@@ -1079,5 +1079,51 @@
       "number": 83,
       "name": "Charlie Hunnam"
     }
+  ],
+  "titlenews": [
+    {
+      "title": "Top news",
+      "chev": "›"
+    }
+  ],
+  "newsTop": [
+    {
+      "id": 1,
+      "coverSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/cover1.jpg",
+      "title": "Box Office: ‘Now You See Me 3’ Casts Spell on Top With $8.4 Million Opening Day, ‘The Running Man’ Slower in Second",
+      "description": " The “Now You See Me” franchise’s reappearing act is landing on the top of box office charts, debuting ahead of the weekend’s other new releases “The Running Man” and “Keeper. Lionsgate’s “Now You See Me: Now You Don’t” heisted $8.4 million across Friday and preview screenings from 3,403 locations.",
+      "date": "Nov 15",
+      "text": "Variety Film + TV"
+    }
+  ],
+  "newsBottom": [
+    {
+      "id": 1,
+      "coverSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/cover1.jpg",
+      "title": "Box Office: ‘Now You See Me 3’ Casts Spell on Top With $8.4 Million Opening Day, ‘The Running Man’ Slower in Second",
+      "date": "Nov 15",
+      "text": "Variety Film + TV"
+    },
+    {
+      "id": 2,
+      "coverSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/cover2.jpg",
+      "title": "Cynthia Erivo and Ariana Grande Open Up About ‘Wicked’ Journey Following Red Carpet Scare: ‘We Have Come Through Some S—‘",
+      "date": "Nov 14",
+      "text": "Variety Film + TV"
+    },
+    {
+      "id": 3,
+      "coverSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/cover3.jpg",
+      "title": "Cairo Film Festival Highlights Egyptian Classics Restoration as Hussein Fahmi Sets Vision for Archival Future",
+      "date": "Nov 16",
+      "text": "Variety - Film News"
+    },
+    {
+      "id": 4,
+      "coverSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/cover4.jpg",
+      "title": "At Cairo Film Festival, Programmers Track a New Wave of Arab Filmmakers",
+      "date": "Nov 16",
+      "text": "Variety - Film News"
+    }
   ]
 }

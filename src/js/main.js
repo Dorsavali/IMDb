@@ -12,6 +12,7 @@ import prime from "./prime/prime";
 import explore from "./explore/explore";
 import soon from "./soon/soon";
 import born from "./born/born";
+import news from "./news/news";
 
 async function allData() {
   await slider();
@@ -33,6 +34,7 @@ async function slider() {
   await explore();
   await soon();
   await born();
+  await news();
   const heroSwiper = new Swiper(".imdbHeroSwiper", {
     spaceBetween: 0,
     centeredSlides: true,

@@ -26,9 +26,11 @@
         }
 
         .text {
+          font-size: 24px;
         }
 
         .chev {
+          font-size: 30px;
           &:hover {
           }
         }
