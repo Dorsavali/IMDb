@@ -20,6 +20,7 @@ header {
     .logo {
       margin-top: 5px;
       margin-right: 60px;
+      cursor: pointer;
       img {
         width: 64px;
         height: 32px;
@@ -41,6 +42,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100%;
+    cursor: pointer;
     &.show-input {
       input {
         display: none;
@@ -76,9 +78,11 @@ header {
       font-weight: 700;
       letter-spacing: 0.28px;
       margin-right: 5px;
+      cursor: pointer;
     }
     .useApp {
       margin-left: 10px;
+      cursor: pointer;
       a {
         background-color: rgb(245, 197, 24);
         color: black;
