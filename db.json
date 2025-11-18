@@ -1125,5 +1125,96 @@
       "date": "Nov 16",
       "text": "Variety - Film News"
     }
-  ]
+  ],
+  "social": [
+    {
+      "id": 1,
+      "iconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/social1.svg"
+    },
+    {
+      "id": 2,
+      "iconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/social2.svg"
+    },
+    {
+      "id": 3,
+      "iconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/social3.svg"
+    },
+    {
+      "id": 4,
+      "iconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/social4.svg"
+    },
+    {
+      "id": 5,
+      "iconSrc": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/social5.svg"
+    }
+  ],
+  "link": [
+    {
+      "id": 1,
+      "title": "Help",
+      "help": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/link.svg"
+    },
+    {
+      "id": 2,
+      "title": "Site index",
+      "help": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/link.svg"
+    },
+    {
+      "id": 3,
+      "title": "IMDbPro",
+      "help": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/link.svg"
+    },
+    {
+      "id": 4,
+      "title": "Box Office Mojo",
+      "help": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/link.svg"
+    },
+    {
+      "id": 5,
+      "title": "  Lisence IMDb Data",
+      "help": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/link.svg"
+    }
+  ],
+  "easyaccses": [
+    {
+      "id": 1,
+      "title": "press Room",
+      "easy": ""
+    },
+    {
+      "id": 2,
+      "title": "Advertising",
+      "easy": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/link.svg"
+    },
+    {
+      "id": 3,
+      "title": "Jobs",
+      "easy": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/link.svg"
+    },
+    {
+      "id": 4,
+      "title": "Conditions of Use",
+      "easy": ""
+    },
+    {
+      "id": 5,
+      "title": "Privacy Policy",
+      "easy": ""
+    },
+    {
+      "id": 6,
+      "title": "Your Ads Privacy Choices",
+      "easy": "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/pirvacy.svg"
+    }
+  ],
+  "amazon":[{
+    "id":1,
+    "amazon" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/amazon.svg"
+  }],
+  "qr":[{
+    "id":1,
+    "title":"Get the IMDb App",
+    "description":" For Android and iOS",
+    "qrcode" : "https://raw.githubusercontent.com/Dorsavali/IMDb/refs/heads/images/qrcode.png"
+  }]
 }
