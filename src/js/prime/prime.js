@@ -1,8 +1,8 @@
 async function prime() {
-    let primetitleRes = await fetch("http://localhost:3000/primetitle");
+    let primetitleRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let primetitleData = await primetitleRes.json();
   
-    let primetitleHTML = primetitleData
+    let primetitleHTML = primetitleData.primetitle
       .map((item) => {
         return `
        <div class="top">
@@ -27,10 +27,10 @@ async function prime() {
       .querySelector(".primetitle")
       .insertAdjacentHTML("afterbegin", primetitleHTML);
 
-      let primeRes = await fetch("http://localhost:3000/prime");
+      let primeRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
       let primeData = await primeRes.json();
     
-      let primeHTML = primeData
+      let primeHTML = primeData.prime
         .map((item) => {
           return `
             <div class="swiper-slide">

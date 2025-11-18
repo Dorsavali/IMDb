@@ -1,8 +1,8 @@
 async function celebs() {
-    let titleCelebsRes = await fetch("http://localhost:3000/titleCelebs");
+    let titleCelebsRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let titleCelebsData = await titleCelebsRes.json();
   
-    let titleCelebsHTML = titleCelebsData
+    let titleCelebsHTML = titleCelebsData.titleCelebs
       .map((item) => {
         return `
          <div class="lineSvg">|</div>
@@ -15,10 +15,10 @@ async function celebs() {
       .querySelector(".titleCelebs")
       .insertAdjacentHTML("afterbegin", titleCelebsHTML);
 
-      let celebsRes = await fetch("http://localhost:3000/celebs");
+      let celebsRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
       let celebsData = await celebsRes.json();
     
-      let celebsHTML = celebsData
+      let celebsHTML = celebsData.celebs
         .map((item) => {
           return `
           <div class="swiper-slide">

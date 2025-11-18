@@ -1,8 +1,8 @@
 async function favorites() {
-    let titlefavoritesRes = await fetch("http://localhost:3000/titlefavorites");
+    let titlefavoritesRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let titlefavoritesData = await titlefavoritesRes.json();
   
-    let titlefavoritesHTML = titlefavoritesData
+    let titlefavoritesHTML = titlefavoritesData.titlefavorites
       .map((item) => {
         return `
         <div class="title">
@@ -19,10 +19,10 @@ async function favorites() {
       .querySelector(".titlefavorites")
       .insertAdjacentHTML("afterbegin", titlefavoritesHTML);
 
-      let favoritesRes = await fetch("http://localhost:3000/favorites");
+      let favoritesRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
       let favoritesData = await favoritesRes.json();
     
-      let favoritesHTML = favoritesData
+      let favoritesHTML = favoritesData.favorites
         .map((item) => {
           return `
             <div class="swiper-slide">

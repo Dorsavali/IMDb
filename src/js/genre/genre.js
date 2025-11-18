@@ -1,8 +1,8 @@
 async function genre() {
-  let titlegenreRes = await fetch("http://localhost:3000/titlegenre");
+  let titlegenreRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let titlegenreData = await titlegenreRes.json();
 
-  let titlegenreHTML = titlegenreData
+  let titlegenreHTML = titlegenreData.titlegenre
     .map((item) => {
       return `
         <div class="title">
@@ -17,10 +17,10 @@ async function genre() {
     .querySelector(".titlegenre")
     .insertAdjacentHTML("afterbegin", titlegenreHTML);
 
-  let genreRes = await fetch("http://localhost:3000/genre");
+  let genreRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let genreData = await genreRes.json();
 
-  let genreHTML = genreData
+  let genreHTML = genreData.genre
     .map((item) => {
       return `
             <div class="swiper-slide">

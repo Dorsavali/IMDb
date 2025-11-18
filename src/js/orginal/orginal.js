@@ -1,8 +1,8 @@
 async function orginal() {
-    let titleorginalRes = await fetch("http://localhost:3000/titleorginal");
+    let titleorginalRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let titleorginalData = await titleorginalRes.json();
   
-    let titleorginalHTML = titleorginalData
+    let titleorginalHTML = titleorginalData.titleorginal
       .map((item) => {
         return `
          <div class="orginal-top">
@@ -25,10 +25,10 @@ async function orginal() {
       .querySelector(".orginal-header")
       .insertAdjacentHTML("afterbegin", titleorginalHTML);
   
-    let orginalRes = await fetch("http://localhost:3000/orginal");
+    let orginalRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let orginalData = await orginalRes.json();
   
-    let orginalHTML = orginalData
+    let orginalHTML = orginalData.orginal
       .map((item) => {
         return `
           <div class="swiper-slide">

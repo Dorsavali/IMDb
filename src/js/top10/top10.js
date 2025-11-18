@@ -1,8 +1,8 @@
 async function top10() {
-    let titletop10Res = await fetch("http://localhost:3000/titletop10");
+    let titletop10Res = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let titletop10Data = await titletop10Res.json();
   
-    let titletop10HTML = titletop10Data
+    let titletop10HTML = titletop10Data.titletop10
       .map((item) => {
         return `
             <span class="bar"></span>
@@ -16,10 +16,10 @@ async function top10() {
       .querySelector(".titletop10")
       .insertAdjacentHTML("afterbegin", titletop10HTML);
 
-      let top10Res = await fetch("http://localhost:3000/top10");
+      let top10Res = await fetch("https://dorsavali.github.io/saei-server/db.json");
       let top10Data = await top10Res.json();
     
-      let top10HTML = top10Data
+      let top10HTML = top10Data.top10
         .map((item) => {
           return `
             <div class="swiper-slide">

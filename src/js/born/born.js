@@ -1,8 +1,8 @@
 async function born() {
-    let titlebornRes = await fetch("http://localhost:3000/titleborn");
+    let titlebornRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let titlebornData = await titlebornRes.json();
   
-    let titlebornHTML = titlebornData
+    let titlebornHTML = titlebornData.titleborn
       .map((item) => {
         return `
          <div class="born-top">
@@ -25,10 +25,10 @@ async function born() {
       .querySelector(".born-header")
       .insertAdjacentHTML("afterbegin", titlebornHTML);
   
-    let bornRes = await fetch("http://localhost:3000/born");
+    let bornRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let bornData = await bornRes.json();
   
-    let bornHTML = bornData
+    let bornHTML = bornData.born
       .map((item) => {
         return `
     <div class="swiper-slide">

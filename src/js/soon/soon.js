@@ -1,8 +1,8 @@
 async function soon() {
-    let titlesoonRes = await fetch("http://localhost:3000/titlesoon");
+    let titlesoonRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let titlesoonData = await titlesoonRes.json();
   
-    let titlesoonHTML = titlesoonData
+    let titlesoonHTML = titlesoonData.titlesoon
       .map((item) => {
         return `
         <div class="titlesoon">
@@ -22,10 +22,10 @@ async function soon() {
       .querySelector(".soon-header")
       .insertAdjacentHTML("afterbegin", titlesoonHTML);
   
-    let soonRes = await fetch("http://localhost:3000/soon");
+    let soonRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let soonData = await soonRes.json();
   
-    let soonHTML = soonData
+    let soonHTML = soonData.soon
       .map((item) => {
         return `
  <div class="swiper-slide">

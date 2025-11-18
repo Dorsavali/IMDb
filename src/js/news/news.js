@@ -1,8 +1,8 @@
 async function news() {
-  let titlenewsRes = await fetch("http://localhost:3000/titlenews");
+  let titlenewsRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let titlenewsData = await titlenewsRes.json();
 
-  let titlenewsHTML = titlenewsData
+  let titlenewsHTML = titlenewsData.titlenews
     .map((item) => {
       return `
         <div class="title">
@@ -17,10 +17,10 @@ async function news() {
     .querySelector(".titlenews")
     .insertAdjacentHTML("afterbegin", titlenewsHTML);
 
-  let newsRes = await fetch("http://localhost:3000/newsTop");
+  let newsRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let newsData = await newsRes.json();
 
-  let newsHTML = newsData
+  let newsHTML = newsData.newsTop
     .map((item) => {
       return `
             
@@ -49,10 +49,10 @@ async function news() {
 
   document.querySelector(".topnews ").insertAdjacentHTML("afterbegin", newsHTML);
 
-  let newsBotttmRes = await fetch("http://localhost:3000/newsBottom");
+  let newsBotttmRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let newsBotttmData = await newsBotttmRes.json();
 
-  let newsBotttmHTML = newsBotttmData
+  let newsBotttmHTML = newsBotttmData.newsBottom
     .map((item) => {
       return `
            <div class="item">

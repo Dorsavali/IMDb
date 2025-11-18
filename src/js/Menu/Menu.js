@@ -14,7 +14,7 @@ let toggleSidebar = function (action) {
 async function menu() {
   if (window.menuInitialized) return;
   window.menuInitialized = true;
-  const menuRes = await fetch("http://localhost:3000/sideMenu");
+  const menuRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   const menuData = await menuRes.json();
   const headerElement = document.querySelector(".sidebar-menu .header");
   headerElement.innerHTML = `
@@ -23,7 +23,7 @@ async function menu() {
   `;
   const closeBtn = document.getElementById("closeSidebarBtn");
   closeBtn.addEventListener("click", () => toggleSidebar("close"));
-  const menuHTML = menuData
+  const menuHTML = menuData.sideMenu
     .map((group) => {
       const submenuHTML =
         group.hasSubmenu && group.submenuItems?.length

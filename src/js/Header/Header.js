@@ -1,9 +1,9 @@
 async function logos() {
   /*logo svg*/
-  let logoRes = await fetch("http://localhost:3000/logo");
+  let logoRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let logoData = await logoRes.json();
 
-  let logoHTML = logoData
+  let logoHTML = logoData.logo
     .map((item) => {
       return `
       <div class="logoItem" key=${item.id}>
@@ -16,10 +16,10 @@ async function logos() {
 
   document.querySelector(".logo").insertAdjacentHTML("afterbegin", logoHTML);
   /*menu svg*/
-  let menuRes = await fetch("http://localhost:3000/menuLogo");
+  let menuRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let menuData = await menuRes.json();
 
-  let menuHTML = menuData
+  let menuHTML = menuData.menuLogo
     .map((item) => {
       return `
       
@@ -34,10 +34,10 @@ async function logos() {
     .querySelector(".menuLogo")
     .insertAdjacentHTML("afterbegin", menuHTML);
   /*search bar */
-  let searchRes = await fetch("http://localhost:3000/searchLogo");
+  let searchRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let searchData = await searchRes.json();
 
-  let searchHTML = searchData
+  let searchHTML = searchData.searchLogo
     .map((item) => {
       return `
         
@@ -52,10 +52,10 @@ async function logos() {
     .querySelector(".search")
     .insertAdjacentHTML("afterbegin", searchHTML);
   /*options */
-  let optionsRes = await fetch("http://localhost:3000/options");
+  let optionsRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let optionsData = await optionsRes.json();
 
-  let optionsHTML = optionsData
+  let optionsHTML = optionsData.options
     .map((item) => {
       return `
          ${item.title}
@@ -68,10 +68,10 @@ async function logos() {
     .insertAdjacentHTML("afterbegin", optionsHTML);
 
   /*options */
-  let submenuRes = await fetch("http://localhost:3000/submenu");
+  let submenuRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let submenuData = await submenuRes.json();
 
-  let submenuHTML = submenuData
+  let submenuHTML = submenuData.submenu
     .map((item) => {
       return `
         <li><a href="${item.href}">
@@ -104,10 +104,10 @@ async function logos() {
     }
     
   /*imdb pro */
-  let proRes = await fetch("http://localhost:3000/proLogo");
+  let proRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let proData = await proRes.json();
 
-  let proHTML = proData
+  let proHTML = proData.proLogo
     .map((item) => {
       return `
           <img src="${item.src}" alt="${item.alt}">
@@ -117,10 +117,10 @@ async function logos() {
 
   document.querySelector(".pro").insertAdjacentHTML("afterbegin", proHTML);
   /*watchlist */
-  let watchlistRes = await fetch("http://localhost:3000/watchlistLogo");
+  let watchlistRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let watchlistData = await watchlistRes.json();
 
-  let watchlistHTML = watchlistData
+  let watchlistHTML = watchlistData.watchlistLogo
     .map((item) => {
       return `
           <img src="${item.src}" alt="${item.alt}">${item.title}
@@ -132,10 +132,10 @@ async function logos() {
     .querySelector(".watchlist")
     .insertAdjacentHTML("afterbegin", watchlistHTML);
   /*signin */
-  let signInRes = await fetch("http://localhost:3000/signIn");
+  let signInRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let signInData = await signInRes.json();
 
-  let signInHTML = signInData
+  let signInHTML = signInData.signIn
     .map((item) => {
       return `
            ${item.title}
@@ -147,10 +147,10 @@ async function logos() {
     .querySelector(".signIn")
     .insertAdjacentHTML("afterbegin", signInHTML);
   /*useApp */
-  let useAppRes = await fetch("http://localhost:3000/useApp");
+  let useAppRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let useAppData = await useAppRes.json();
 
-  let useAppHTML = useAppData
+  let useAppHTML = useAppData.useApp
     .map((item) => {
       return `
                <a href = "${item.href}">${item.title}</a>
@@ -162,10 +162,10 @@ async function logos() {
     .querySelector(".useApp")
     .insertAdjacentHTML("afterbegin", useAppHTML);
   /*lang */
-  let langRes = await fetch("http://localhost:3000/lang");
+  let langRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let langData = await langRes.json();
 
-  let langHTML = langData
+  let langHTML = langData.lang
     .map((item) => {
       return `
           <img src="${item.src}" alt="${item.alt}">${item.title}

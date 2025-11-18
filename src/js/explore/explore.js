@@ -1,8 +1,8 @@
 async function explore() {
-    let titleexploreRes = await fetch("http://localhost:3000/titleexplore");
+    let titleexploreRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let titleexploreData = await titleexploreRes.json();
   
-    let titleexploreHTML = titleexploreData
+    let titleexploreHTML = titleexploreData.titleexplore
       .map((item) => {
         return `
          <div class="explore-top">
@@ -25,10 +25,10 @@ async function explore() {
       .querySelector(".explore-header")
       .insertAdjacentHTML("afterbegin", titleexploreHTML);
   
-    let exploreRes = await fetch("http://localhost:3000/explore");
+    let exploreRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let exploreData = await exploreRes.json();
   
-    let exploreHTML = exploreData
+    let exploreHTML = exploreData.explore
       .map((item) => {
         return `
          <div class="item">

@@ -23,10 +23,10 @@ follow IMDb on social
     .querySelector(".social .title")
     .insertAdjacentHTML("afterbegin", socialtitleHTML);
 
-  let socialRes = await fetch("http://localhost:3000/social");
+  let socialRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let socialData = await socialRes.json();
 
-  let socialHTML = socialData
+  let socialHTML = socialData.social
     .map((item) => {
       return `
 <img src="${item.iconSrc}" alt="icon">
@@ -38,10 +38,10 @@ follow IMDb on social
     .querySelector(".social .icon")
     .insertAdjacentHTML("afterbegin", socialHTML);
 
-  let linkRes = await fetch("http://localhost:3000/link");
+  let linkRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let linkData = await linkRes.json();
 
-  let linkHTML = linkData
+  let linkHTML = linkData.link
     .map((item) => {
       return `
 <a href="#">
@@ -56,10 +56,10 @@ follow IMDb on social
     .querySelector(".links")
     .insertAdjacentHTML("afterbegin", linkHTML);
 
-    let easyRes = await fetch("http://localhost:3000/easyaccses");
+    let easyRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
     let easyData = await easyRes.json();
     
-    let easyHTML = easyData
+    let easyHTML = easyData.easyaccses
       .map((item) => {
      
         const imageTag = item.easy
@@ -78,10 +78,10 @@ follow IMDb on social
       .querySelector(".easy-accses")
       .insertAdjacentHTML("afterbegin", easyHTML);
 
-      let amazonRes = await fetch("http://localhost:3000/amazon");
+      let amazonRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
       let amazonData = await amazonRes.json();
       
-      let amazonHTML = amazonData
+      let amazonHTML = amazonData.amazon
       .map((item) => {
         return `
  <img src="${item.amazon}" alt="amazon">
@@ -102,10 +102,10 @@ follow IMDb on social
           .insertAdjacentHTML("afterbegin", copyrightHTML);
 
 
-          let qrRes = await fetch("http://localhost:3000/qr");
+          let qrRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
           let qrData = await qrRes.json();
           
-          let qrHTML = qrData
+          let qrHTML = qrData.qr
           .map((item) => {
             return `
 

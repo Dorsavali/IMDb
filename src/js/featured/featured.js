@@ -1,8 +1,8 @@
 async function featured() {
-  let titleFeaturedRes = await fetch("http://localhost:3000/titleFeatured");
+  let titleFeaturedRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let titleFeaturedData = await titleFeaturedRes.json();
 
-  let titleFeaturedHTML = titleFeaturedData
+  let titleFeaturedHTML = titleFeaturedData.titleFeatured
     .map((item) => {
       return `
        ${item.titleFeatured}
@@ -14,10 +14,10 @@ async function featured() {
     .querySelector(".titleFeatured")
     .insertAdjacentHTML("afterbegin", titleFeaturedHTML);
 
-  let featuredRes = await fetch("http://localhost:3000/featured");
+  let featuredRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let featuredData = await featuredRes.json();
 
-  let featuredHTML = featuredData
+  let featuredHTML = featuredData.featured
     .map((item) => {
       return `
       <div class="swiper-slide">

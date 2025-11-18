@@ -1,8 +1,8 @@
 async function imdbHero() {
-  let imdbHeroRes = await fetch("http://localhost:3000/imdbHero");
+  let imdbHeroRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let imdbHeroData = await imdbHeroRes.json();
 
-  let imdbHeroHTML = imdbHeroData
+  let imdbHeroHTML = imdbHeroData.imdbHero
     .map((item) => {
       return `
          <div class="swiper-slide">
@@ -59,10 +59,10 @@ async function imdbHero() {
       playImg.src = (playImg.src === originalSrc) ? hoverSrc : originalSrc;
     });
   });
-  let titleDivRes = await fetch("http://localhost:3000/titleDiv");
+  let titleDivRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let titleDivData = await titleDivRes.json();
 
-  let titleDivHTML = titleDivData
+  let titleDivHTML = titleDivData.titleDiv
     .map((item) => {
       return `
      ${item.titleDiv}
@@ -73,10 +73,10 @@ async function imdbHero() {
   document
     .querySelector(".titleDiv")
     .insertAdjacentHTML("afterbegin", titleDivHTML);
-  let trailersRes = await fetch("http://localhost:3000/trailers");
+  let trailersRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let trailersData = await trailersRes.json();
 
-  let trailersHTML = trailersData
+  let trailersHTML = trailersData.trailers
     .map((item) => {
       return `
        ${item.trailers}
@@ -88,10 +88,10 @@ async function imdbHero() {
     .querySelector(".trailers")
     .insertAdjacentHTML("afterbegin", trailersHTML);
 
-  let ImdbHeroDesktopRes = await fetch("http://localhost:3000/imdbHeroDesktop");
+  let ImdbHeroDesktopRes = await fetch("https://dorsavali.github.io/saei-server/db.json");
   let ImdbHeroDesktopData = await ImdbHeroDesktopRes.json();
 
-  let ImdbHeroDesktopHTML = ImdbHeroDesktopData.map((item) => {
+  let ImdbHeroDesktopHTML = ImdbHeroDesktopData.imdbHeroDesktop.map((item) => {
     return `
       
         <div class="coverDesktop">
